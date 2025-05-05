@@ -6,6 +6,7 @@ import GRE from '../pages/smart-learning/GRE';
 import IELTS from '../pages/smart-learning/IELTS';
 import PTE from '../pages/smart-learning/PTE';
 import TOEFL from '../pages/smart-learning/TOEFL';
+import SAT from '../pages/smart-learning/SAT';
 
 // Just export an array of Route elements
 const smartLearningRoute = [
@@ -15,6 +16,7 @@ const smartLearningRoute = [
     <Route path='/ielts' element={<IELTS />} key="ielts" />,
     <Route path='/pte' element={<PTE />} key="pte" />,
     <Route path='/toefl' element={<TOEFL />} key="toefl" />,
+    <Route path='/sat' element={<SAT />} key="sat" />,
 ];
 
 
