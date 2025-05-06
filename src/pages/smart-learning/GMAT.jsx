@@ -39,7 +39,7 @@ function GMAT() {
           {gmatData.map((card, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition duration-300"
+              className="bg-white shadow-md rounded-lg p-6 hover:shadow-black transition duration-400"
             >
               <h4 className="text-lg font-bold mb-2 text-black-700">{card.title}</h4>
               <p>{card.description}</p>
@@ -130,7 +130,7 @@ function GMAT() {
           {crackGmat.map((card, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition duration-300"
+              className="bg-white shadow-md rounded-lg p-6 hover:shadow-black transition duration-400"
             >
               <h4 className="text-lg font-bold mb-2 text-black-700">{card.title}</h4>
               <p>{card.description}</p>
@@ -150,11 +150,11 @@ function GMAT() {
           <p className="text-lg text-gray-600 text-center mb-10">
             Choose your path to start your GMAT Prep Journey.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
             {programData.map((program, index) => (
               <div
                 key={index}
-                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-black transition-shadow duration-300"
               >
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-blue-600 mb-4">{program.title}</h3>

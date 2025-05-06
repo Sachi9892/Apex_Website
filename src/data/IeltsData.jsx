@@ -21,7 +21,7 @@ export const ieltsFactsData = [
     },
     {
         title: "Registration Fee",
-        description: "IELTS Academic INR 16,250 IELTS General Test INR 16,500"
+        description: "IELTS Academic INR 18,000 IELTS General Test INR 18,000"
     }
 ];
 

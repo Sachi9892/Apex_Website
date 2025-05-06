@@ -14,7 +14,7 @@ export const countryLinks = [
 export const examLinks = [
     { name: "Duolingo", path: "/duolingo", pic: "src/assets/img/exams/duolingo.jpg" },
     { name: "GMAT", path: "/gmat", pic: "src/assets/img/exams/gmat.png" },
-    { name: "GRE", path: "/gre", pic: "src/assets/img/exams/gre.jpg" },
+    { name: "GRE", path: "/gre", pic: "src/assets/img/exams/banners/gre1.png" },
     { name: "SAT", path: "/sat", pic: "src/assets/img/exams/sat.png" },
     { name: "IELTS", path: "/ielts", pic: "src/assets/img/exams/ielts.png" },
     { name: "PTE", path: "/pte", pic: "src/assets/img/exams/pte.png" },

@@ -38,7 +38,7 @@ function IELTS() {
           {ieltsFactsData.map((card, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition duration-300"
+              className="bg-white shadow-md rounded-lg p-6 hover:shadow-black transition duration-400"
             >
               <h4 className="text-lg font-bold mb-2 text-black-700">{card.title}</h4>
               <p>{card.description}</p>
@@ -72,9 +72,14 @@ function IELTS() {
                 <td className="py-3 px-4 border-b">60 minutes</td>
               </tr>
               <tr className="hover:bg-gray-50">
-                <td className="py-3 px-4 border-b font-medium">Listening</td>
+                <td className="py-3 px-4 border-b font-medium">Listening (CBT)</td>
                 <td className="py-3 px-4 border-b">40</td>
-                <td className="py-3 px-4 border-b">30 minutes</td>
+                <td className="py-3 px-4 border-b">30 minutes + 2 minutes</td>
+              </tr>
+              <tr className="hover:bg-gray-50">
+                <td className="py-3 px-4 border-b font-medium">Listening (P&P)</td>
+                <td className="py-3 px-4 border-b">40</td>
+                <td className="py-3 px-4 border-b">30 minutes + 10 minutes</td>
               </tr>
               <tr className="hover:bg-gray-50">
                 <td className="py-3 px-4 border-b font-medium">Speaking</td>
@@ -83,6 +88,7 @@ function IELTS() {
               </tr>
             </tbody>
           </table>
+          <p className="text-white text-sm mt-2">** for more information contact us !</p>
         </div>
       </div>
 
@@ -107,7 +113,7 @@ function IELTS() {
           {crackIelts.map((card, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition duration-300"
+              className="bg-white shadow-md rounded-lg p-6 hover:shadow-black transition duration-400"
             >
               <h4 className="text-lg font-bold mb-2 text-black-700">{card.title}</h4>
               <p>{card.description}</p>
@@ -132,7 +138,7 @@ function IELTS() {
             {ieltsTrainingData.map((program, index) => (
               <div
                 key={index}
-                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-black transition-shadow duration-400"
               >
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-blue-600 mb-4">{program.title}</h3>
