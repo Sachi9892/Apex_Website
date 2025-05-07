@@ -85,7 +85,8 @@ export const images = [
     "src/assets/img/countries/uk/Page4.png",
     "src/assets/img/countries/uk/Page5.png",
     "src/assets/img/countries/uk/Page6.png",
+    "src/assets/img/countries/uk/Page2.png",
     "src/assets/img/countries/uk/Page7.png",
     "src/assets/img/countries/uk/Page8.png",
-    "src/assets/img/countries/uk/Page9.png",
+
 ];

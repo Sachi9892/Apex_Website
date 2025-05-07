@@ -1,5 +1,5 @@
 import React from 'react';
-import { gmatData, crackGmat, programData } from '../../data/GmatData';
+import { gmatData, crackGmat, programData } from '../../data/exams/GmatData';
 
 function GMAT() {
   return (
@@ -34,7 +34,7 @@ function GMAT() {
 
       {/* Facts about the gmat  */}
       <div className='bg-pink-100 w-full'>
-        <h3 className="text-3xl font-semibold text-black-600 mt-10 text-center"><strong>Quick Facts About GMAT</strong></h3>
+        <h3 className="text-lg sm:text-xl md:text-3xl font-bold text-black text-center mt-8 md:mt-8"><strong>Quick Facts About GMAT</strong></h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 md:px-16 w-full mb-10 mt-8">
           {gmatData.map((card, index) => (
             <div
@@ -52,7 +52,7 @@ function GMAT() {
       {/* Exam Structure  */}
       <div className='bg-red-500 w-full'>
         <div className="px-4 md:px-8 w-full overflow-x-auto mb-10">
-          <h3 className="text-3xl font-bold text-white mb-6 mt-10 text-center">GMAT Exam Structure</h3>
+          <h3 className="text-lg sm:text-xl md:text-3xl font-bold text-white text-center mt-6 md:mt-4">GMAT Exam Structure</h3>
           <table className="min-w-[250px] md:min-w-full bg-white border border-gray-500 text-sm md:text-base mt-8">
             <thead>
               <tr className="bg-gray-100 text-gray-600">
@@ -63,7 +63,7 @@ function GMAT() {
               </tr>
             </thead>
             <tbody>
-              <tr className="hover:bg-gray-100">
+              <tr className="hover:bg-red-200">
                 <td className="py-3 px-4 border-b font-medium">Verbal Reasoning</td>
                 <td className="py-3 px-4 border-b">36</td>
                 <td className="py-3 px-4 border-b">
@@ -75,7 +75,7 @@ function GMAT() {
                 </td>
                 <td className="py-3 px-4 border-b">75 minutes</td>
               </tr>
-              <tr className="hover:bg-gray-50">
+              <tr className="hover:bg-red-200">
                 <td className="py-3 px-4 border-b font-medium">Quantitative Reasoning</td>
                 <td className="py-3 px-4 border-b">31</td>
                 <td className="py-3 px-4 border-b">
@@ -86,7 +86,7 @@ function GMAT() {
                 </td>
                 <td className="py-3 px-4 border-b">75 minutes</td>
               </tr>
-              <tr className="hover:bg-gray-50">
+              <tr className="hover:bg-red-200">
                 <td className="py-3 px-4 border-b font-medium">Integrated Reasoning</td>
                 <td className="py-3 px-4 border-b">12</td>
                 <td className="py-3 px-4 border-b">
@@ -99,7 +99,7 @@ function GMAT() {
                 </td>
                 <td className="py-3 px-4 border-b">30 minutes</td>
               </tr>
-              <tr className="hover:bg-gray-50">
+              <tr className="hover:bg-red-200">
                 <td className="py-3 px-4 border-b font-medium">Analytical Writing Assessment (AWA)</td>
                 <td className="py-3 px-4 border-b">1</td>
                 <td className="py-3 px-4 border-b">Argument Analysis</td>
@@ -113,7 +113,7 @@ function GMAT() {
 
       {/* {What is a Good GMAT Score} */}
       <div className='w-full bg-pink-50 border-collapse rounded-lg p-8'>
-        <h3 className="text-3xl font-bold text-black text-center mt-10 mr-8">What is a Good GMAT Score ?</h3>
+        <h3 className="text-lg sm:text-base md:text-3xl font-bold text-black text-center mt-4 md:mt-4">What is a Good GMAT Score?</h3>
         <div className="mt-6 px-4 md:px-16"> {/* Added padding for better mobile spacing */}
           <img
             src="src/assets/img/exams/banners/gmat-score.png"
@@ -125,7 +125,7 @@ function GMAT() {
 
       {/* Crack GMAT Section (Looks responsive with grid) */}
       <div className='bg-red-500 w-full'>
-        <h3 className="text-3xl font-semibold text-white text-center mt-10">Crack GMAT with <strong>650+</strong> Score in 30 Days With Apex Consultancy</h3>
+        <h3 className="text-lg sm:text-base md:text-3xl font-bold text-white text-center mt-6 md:mt-4">Crack GMAT with <strong>650+</strong> Score in 30 Days With Apex Consultancy</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 md:px-16 w-full mb-10 mt-8">
           {crackGmat.map((card, index) => (
             <div
@@ -144,13 +144,13 @@ function GMAT() {
       {/* Discover Our GMAT Programs */}
       <div className="w-full py-12 bg-gray-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-800 text-center mb-8">
+          <h2 className="text-lg sm:text-xl md:text-3xl font-bold text-black text-center mt-4 md:mt-10">
             Discover Our GMAT Programs
           </h2>
-          <p className="text-lg text-gray-600 text-center mb-10">
+          <p className="text-sm sm:text-base md:text-lg font-medium text-black text-center mt-2 md:mt-6">
             Choose your path to start your GMAT Prep Journey.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
+          <div className="grid mt-4 grid-cols-1 md:grid-cols-3 gap-8 ">
             {programData.map((program, index) => (
               <div
                 key={index}
@@ -170,7 +170,7 @@ function GMAT() {
                   <h4 className="text-lg font-semibold text-gray-800 mb-2">Key Features:</h4>
                   <ul className="list-disc list-inside text-gray-600">
                     {program.features.map((feature, i) => (
-                      <pre key={i}>{feature}</pre>
+                      <li key={i}>{feature}</li>
                     ))}
                   </ul>
                   <div className="mt-6">
@@ -196,7 +196,7 @@ function GMAT() {
           />
         </div>
         <div className="w-full md:w-1/2 p-6 flex flex-col items-center md:items-start">
-          <h2 className="text-xl md:text-2xl font-bold text-white mt-4 md:mt-0 mb-2 md:mb-4 text-center md:text-left">
+          <h2 className="text-xl md:text-2xl font-bold text-black mt-4 md:mt-0 mb-2 md:mb-4 text-center md:text-left">
             Start Your GMAT journey now!
           </h2>
           <button className="mt-2 md:mt-0 bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">

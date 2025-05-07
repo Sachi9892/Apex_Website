@@ -1,5 +1,6 @@
 import React from 'react'
-import { ieltsFactsData, crackIelts, ieltsTrainingData } from '../../data/IeltsData'
+
+import { ieltsFactsData, crackIelts, ieltsTrainingData } from '../../data/exams/IeltsData'
 
 function IELTS() {
   return (
@@ -33,7 +34,7 @@ function IELTS() {
 
       {/* Facts about the ielts  */}
       <div className='bg-pink-200 w-full'>
-        <h3 className="text-3xl font-semibold text-black mt-10 text-center"><strong>Quick Facts About IELTS</strong></h3>
+        <h3 className="text-xl sm:text-base md:text-lg font-medium text-black text-center mt-6 md:mt-6"><strong>Quick Facts About IELTS</strong></h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 md:px-16 w-full mb-10 mt-8">
           {ieltsFactsData.map((card, index) => (
             <div
@@ -51,7 +52,7 @@ function IELTS() {
       {/* Exam Structure  */}
       <div className='bg-red-500 w-full'>
         <div className="px-4 md:px-8 w-full overflow-x-auto mb-10">
-          <h3 className="text-3xl font-bold text-white mb-6 mt-10 text-center">IELTS Exam Structure</h3>
+          <h3 className="text-xl sm:text-base md:text-lg font-medium text-white text-center mt-6 md:mt-6">IELTS Exam Structure</h3>
           <table className="min-w-[250px] md:min-w-full bg-white border rounded-sm border-gray-300 text-sm md:text-base mt-8">
             <thead>
               <tr className="bg-gray-100 text-gray-700">
@@ -61,27 +62,27 @@ function IELTS() {
               </tr>
             </thead>
             <tbody>
-              <tr className="hover:bg-gray-50">
+              <tr className="hover:bg-red-200">
                 <td className="py-3 px-4 border-b font-medium">Reading</td>
                 <td className="py-3 px-4 border-b">40</td>
                 <td className="py-3 px-4 border-b">60 minutes</td>
               </tr>
-              <tr className="hover:bg-gray-50">
+              <tr className="hover:bg-red-200">
                 <td className="py-3 px-4 border-b font-medium">Writing</td>
                 <td className="py-3 px-4 border-b">2</td>
                 <td className="py-3 px-4 border-b">60 minutes</td>
               </tr>
-              <tr className="hover:bg-gray-50">
+              <tr className="hover:bg-red-200">
                 <td className="py-3 px-4 border-b font-medium">Listening (CBT)</td>
                 <td className="py-3 px-4 border-b">40</td>
                 <td className="py-3 px-4 border-b">30 minutes + 2 minutes</td>
               </tr>
-              <tr className="hover:bg-gray-50">
+              <tr className="hover:bg-red-200">
                 <td className="py-3 px-4 border-b font-medium">Listening (P&P)</td>
                 <td className="py-3 px-4 border-b">40</td>
                 <td className="py-3 px-4 border-b">30 minutes + 10 minutes</td>
               </tr>
-              <tr className="hover:bg-gray-50">
+              <tr className="hover:bg-red-200">
                 <td className="py-3 px-4 border-b font-medium">Speaking</td>
                 <td className="py-3 px-4 border-b">3 part conversation</td>
                 <td className="py-3 px-4 border-b">11-14 minutes</td>
@@ -94,21 +95,24 @@ function IELTS() {
 
       {/* marks */}
       <div className='w-full bg-pink-50 border-collapse rounded-lg p-8'>
-        <h3 className="text-3xl font-bold text-black text-center mt-10 mr-8">What is a Good IELTS Score ?</h3>
-        <div className="mt-6 px-4 md:px-16">
+        <h3 className="text-lg sm:text-xl md:text-2xl font-medium text-black text-center mt-6 md:mt-6">
+          What is a Good IELTS Score?
+        </h3>
+        <div className="mt-6 px-2 sm:px-4 md:px-16">
           <img
             src="src/assets/img/exams/banners/ielts-marks.png"
-            alt="GMAT Score"
-            className="w-full max-w-[800px] max-h-[700px] h-auto object-contain mx-auto"
+            alt="IELTS Score"
+            className="w-full h-auto object-contain"
           />
         </div>
       </div>
 
 
 
+
       {/* Crack GMAT Section (Looks responsive with grid) */}
       <div className='bg-red-500 w-full'>
-        <h3 className="text-3xl font-semibold text-white text-center mt-10">Crack IELTS with <strong>7+</strong> Bands in 30 Days With Apex Consultancy</h3>
+        <h3 className="text-lg sm:text-xl md:text-2xl font-medium text-white text-center mt-6 md:mt-6">Crack IELTS with <strong>7+</strong> Bands in 30 Days With Apex Consultancy</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 md:px-16 w-full mb-10 mt-8">
           {crackIelts.map((card, index) => (
             <div
@@ -128,13 +132,13 @@ function IELTS() {
       {/* Discover Our IELTS Programs */}
       <div className="w-full py-12 bg-gray-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-800 text-center mb-8">
+          <h2 className="text-lg sm:text-xl md:text-2xl font-medium text-black text-center mt-6 md:mt-6">
             Discover Our IELTS Programs
           </h2>
-          <p className="text-lg text-gray-600 text-center mb-10">
+          <p className="text-sm sm:text-base md:text-lg font-medium text-black text-center mt-2 md:mt-6">
             Choose your path to start your IELTS Prep Journey.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-8">
             {ieltsTrainingData.map((program, index) => (
               <div
                 key={index}
@@ -154,7 +158,7 @@ function IELTS() {
                   <h4 className="text-lg font-semibold text-gray-800 mb-2">Key Features:</h4>
                   <ul className="list-disc list-inside text-gray-600">
                     {program.features.map((feature, i) => (
-                      <pre key={i}>{feature}</pre>
+                      <li key={i}>{feature}</li>
                     ))}
                   </ul>
                   <div className="mt-6">
@@ -180,8 +184,8 @@ function IELTS() {
           />
         </div>
         <div className="w-full md:w-1/2 p-6 flex flex-col items-center md:items-start">
-          <h2 className="text-xl md:text-2xl font-bold text-white mt-4 md:mt-0 mb-2 md:mb-4 text-center md:text-left">
-            Start Your GMAT journey now!
+          <h2 className="text-xl md:text-2xl font-bold text-black mt-4 md:mt-0 mb-2 md:mb-4 text-center md:text-left">
+            Start Your IELTS journey now!
           </h2>
           <button className="mt-2 md:mt-0 bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
             Contact Us!

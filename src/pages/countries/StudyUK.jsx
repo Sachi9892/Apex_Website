@@ -66,7 +66,7 @@ function StudyUK() {
 
 
 
-      {/* Tests Required to Study in Canada */}
+      {/* Tests Required to Study in UK */}
       <div className="w-full p-6">
         <h2 className="text-3xl font-bold text-center text-black mb-6">
           Tests Required to Study in UK
@@ -132,8 +132,8 @@ function StudyUK() {
       </div>
 
 
-      {/* Courses in Canada  */}
-      <div className='w-full bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('src/assets/img/countries/usa/us-bg.png')" }}>
+      {/* Courses in UK  */}
+      <div className='w-full bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('src/assets/img/countries/uk/uk-bg.png')" }}>
         <div className="px-4 md:px-8 w-full overflow-x-auto mb-10">
           <h3 className="text-3xl font-bold text-white mb-6 mt-10 text-center">Popular Courses to Study in UK</h3>
           <table className="min-w-[250px] md:min-w-full bg-white border border-gray-500 text-sm md:text-base mt-8">
@@ -210,7 +210,7 @@ function StudyUK() {
       </div>
 
 
-      {/* All you need to know about Study in Canada */}
+      {/* All you need to know about Study in UK */}
       <div className="w-full px-6 md:px-16 py-10 bg-gray-50">
         {/* Heading */}
         <h3 className="text-3xl font-bold text-black mb-6 text-center">
@@ -265,18 +265,18 @@ function StudyUK() {
 
 
 
-      {/* Canada universities list */}
+      {/* UK universities list */}
       <div
         className="w-full py-10"
-        style={{ backgroundImage: "url('src/assets/img/countries/usa/us-bg.png')" }}
+        style={{ backgroundImage: "url('src/assets/img/countries/uk/uk-bg.png')" }}
       >
         {/* USA Student Life Section */}
-        <h2 className="text-2xl font-bold text-center mb-6 text-white">Best University In Canada</h2>
+        <h2 className="text-2xl font-bold text-center mb-6 text-white">Best University In UK</h2>
         {/* Slideshow Image with 80% width and 10% side margins */}
         <div className="w-[80%] mx-auto">
           <img
             src={images[current]}
-            alt={`USA Slide ${current + 1}`}
+            alt={`UK Slide ${current + 1}`}
             className="w-full h-[400px] object-cover rounded-xl shadow-md transition duration-500"
           />
         </div>

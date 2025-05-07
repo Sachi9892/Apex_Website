@@ -32,7 +32,7 @@ const MobileNavbar = ({ isOpen, closeMenu }) => {
                             key={path}
                             to={path}
                             onClick={handleLinkClick}
-                            className="flex items-center gap-3 px-4 py-3 hover:bg-gray-100"
+                            className="flex items-center gap-3 px-4 py-3 hover:bg-red-200"
                         >
                             {flag && <img src={flag} alt={name} className="w-10 h-10 rounded" />}
                             <span className="text-base">{name}</span>
@@ -53,7 +53,7 @@ const MobileNavbar = ({ isOpen, closeMenu }) => {
                             key={path}
                             to={path}
                             onClick={handleLinkClick}
-                            className="flex items-center gap-2 px-4 py-2 hover:bg-gray-100"
+                            className="flex items-center gap-2 px-4 py-2 hover:bg-red-200"
                         >
                             {pic && <img src={pic} alt={name} className="w-8 h-8 rounded-sm" />}
                             <span>{name}</span>
