@@ -5,9 +5,9 @@ export const countryLinks = [
     { name: "Study in Australia", path: "/study-australia", flag: "src/assets/img/flags/aus.png" },
     { name: "Study in Ireland", path: "/study-ireland", flag: "src/assets/img/flags/image.png" },
     { name: "Study in France", path: "/study-france", flag: "src/assets/img/flags/france.png" },
-    { name: "Study in Singapore", path: "/study-europe", flag: "src/assets/img/flags/singa.png" },
+    { name: "Study in Singapore", path: "/study-singapore", flag: "src/assets/img/flags/singapore.png" },
     { name: "Study in Germany", path: "/study-germany", flag: "src/assets/img/flags/germany.png" },
-    { name: "Study in New Zealand", path: "/study-germany", flag: "src/assets/img/flags/new-zealand.png" },
+    { name: "Study in New Zealand", path: "/study-newzealand", flag: "src/assets/img/flags/new-zealand.png" },
 ];
 
 

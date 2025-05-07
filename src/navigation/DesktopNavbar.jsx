@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import { ChevronDown } from "lucide-react";
-import { countryLinks, examLinks } from "../data/NavLinks";
+import { countryLinks , examLinks } from "../data/NavLinks";
 
 const DesktopNavbar = () => {
     const [showForeign, setShowForeign] = useState(false);

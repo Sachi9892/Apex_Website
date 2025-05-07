@@ -134,7 +134,7 @@ function StudyUsa() {
 
 
       {/* Courses in usa  */}
-      <div className='w-full bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('src/assets/img/countries/us-bg.png')" }}>
+      <div className='w-full bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('src/assets/img/countries/usa/us-bg.png')" }}>
         <div className="px-4 md:px-8 w-full overflow-x-auto mb-10">
           <h3 className="text-3xl font-bold text-white mb-6 mt-10 text-center">Popular Courses to Study in USA</h3>
           <table className="min-w-[250px] md:min-w-full bg-white border border-gray-500 text-sm md:text-base mt-8">
@@ -262,10 +262,12 @@ function StudyUsa() {
         </div>
       </div>
 
+
+
       {/* Usa universities list */}
       <div
         className="w-full py-10"
-        style={{ backgroundImage: "url('src/assets/img/countries/us-bg.png')" }}
+        style={{ backgroundImage: "url('src/assets/img/countries/usa/us-bg.png')" }}
       >
         {/* USA Student Life Section */}
         <h2 className="text-2xl font-bold text-center mb-6 text-white">Best University In USA</h2>
