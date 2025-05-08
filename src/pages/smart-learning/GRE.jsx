@@ -2,6 +2,8 @@ import React from 'react'
 
 import { greFactsData, crackGre, grePorgram } from '../../data/exams/GreData'
 
+import ExploreExams from '../../components/ExploreExams'
+
 function GRE() {
   return (
     <div className="w-full flex flex-col items-center space-y-8">
@@ -125,17 +127,19 @@ function GRE() {
       {/* Discover Our GRE Programs */}
       <div className="w-full py-12 bg-gray-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-lg sm:text-xl md:text-3xl font-bold text-black text-center md:mt-4">
+          <h2 className="text-lg sm:text-xl md:text-2xl font-medium text-black text-center mt-6">
             Discover Our GRE Programs
           </h2>
-          <p className="text-sm sm:text-base md:text-lg font-medium text-black text-center mt-2 md:mt-6">
+          <p className="text-sm sm:text-base md:text-lg font-medium text-black text-center mt-2">
             Choose your path to start your GRE Prep Journey.
           </p>
-          <div className="grid mt-4 grid-cols-1 md:grid-cols-3 gap-8">
+
+          {/* Flex layout for 2 narrower cards */}
+          <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-6">
             {grePorgram.map((program, index) => (
               <div
                 key={index}
-                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-black transition-shadow duration-400"
+                className="bg-white rounded-lg shadow-md hover:shadow-black transition-shadow duration-400 w-full max-w-sm"
               >
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-blue-600 mb-4">{program.title}</h3>
@@ -167,6 +171,7 @@ function GRE() {
       </div>
 
 
+
       {/* image for the apply now button */}
       <div className="flex flex-col md:flex-row items-center w-full bg-gradient-to-r from-indigo-100 via-red-300 to-pink-200">
         <div className="w-full md:w-1/2">
@@ -185,6 +190,8 @@ function GRE() {
           </button>
         </div>
       </div>
+
+      <ExploreExams />
 
 
 

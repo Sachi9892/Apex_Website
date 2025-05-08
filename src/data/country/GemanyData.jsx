@@ -1,4 +1,4 @@
-export const whyToStudyCanada = [
+export const whyToStudyGermany = [
     {
         title: "world class education",
         description: "Canada is known for its high-quality education system, offering a diverse range of programs and courses. Renowned universities and colleges ensure students receive a top-notch education that’s recognized globally. It is the hub for groundbreaking research and innovation."
@@ -19,7 +19,7 @@ export const whyToStudyCanada = [
 
 
 
-export const canadaTestAccordion = [
+export const germanyTestAccordion = [
     {
         content: "GRE is often required for admission to graduate programs, including master’s and doctoral degrees. It assesses verbal reasoning, quantitative reasoning, and analytical writing skills. GRE minimum requirements in the US range from 280-320 out of 340.",
         icon: "src/assets/img/exams/gre.jpg",
@@ -44,7 +44,7 @@ export const canadaTestAccordion = [
 ];
 
 
-export const canadaInfo = [
+export const germanyInfo = [
     {
         title: 'Canada study intake',
         content: `✔️ Canada offers two main intakes for international students – Fall and Winter. The Fall intake typically begins in September and is the most popular intake

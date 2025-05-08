@@ -25,12 +25,8 @@ export const irelandTestAccordion = [
         icon: "src/assets/img/exams/toefl.png",
     },
     {
-        content: "GRE is often required for admission to graduate programs, including master’s and doctoral degrees. It assesses verbal reasoning, quantitative reasoning, and analytical writing skills. GRE minimum requirements in the US range from 280-320 out of 340.",
-        icon: "src/assets/img/exams/gre.jpg",
-    },
-    {
-        content: "GMAT is required for admission to business schools for MBA and other management-related programs. GMAT minimum requirements in the US range from 550-650 out of 800.",
-        icon: "src/assets/img/exams/gmat.png",
+        content: "Duolingo is required for admission to business schools for MBA and other management-related programs. GMAT minimum requirements in the US range from 550-650 out of 800.",
+        icon: "src/assets/img/exams/banners/duolingo.jpg",
     },
     {
         content: "IELTS (International English Language Testing System): Similar to TOEFL, IELTS is another English language proficiency test accepted by American institutions.IELTS minimum requirements in the US range from 6 to 7+ bands out of 9.0.",

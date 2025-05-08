@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 
 import { whyToStudySingapore, singaporeInfo, singaporeTestAccordion, images } from '../../data/country/SingaporeData';
 
+import ExploreCountries from '../../components/ExploreCountries';
+
 function StudySingapore() {
 
     const [openIndex, setOpenIndex] = useState(null);
@@ -265,21 +267,47 @@ function StudySingapore() {
 
             {/* Singapore universities list */}
             <div
-                className="w-full py-10"
+                className="w-full py-10 bg-cover bg-center"
                 style={{ backgroundImage: "url('src/assets/img/countries/usa/us-bg.png')" }}
             >
                 {/* USA Student Life Section */}
-                <h2 className="text-2xl font-bold text-center mb-6 text-white">Best University In Sinagpore</h2>
-                {/* Slideshow Image with 80% width and 10% side margins */}
-                <div className="w-[80%] mx-auto">
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6 text-white">
+                    Best University In Singapore
+                </h2>
+
+                {/* Slideshow Image Container */}
+                <div className="w-[90%] sm:w-[80%] mx-auto">
                     <img
                         src={images[current]}
                         alt={`USA Slide ${current + 1}`}
-                        className="w-full h-[400px] object-cover rounded-xl shadow-md transition duration-500"
+                        className="w-full max-w-full h-64 sm:h-[400px] object-cover rounded-xl shadow-md transition duration-500"
                     />
+                </div>
+
+
+            </div>
+
+
+            {/* image for the apply now button */}
+            <div className="flex flex-col md:flex-row items-center w-full bg-gradient-to-r from-indigo-100 via-red-300 to-pink-200">
+                <div className="w-full md:w-1/2">
+                    <img
+                        src="src/assets/img/models/boy.png"
+                        alt="SAT Banner"
+                        className="block max-w-[300px] w-full h-auto object-contain mx-auto"
+                    />
+                </div>
+                <div className="w-full md:w-1/2 p-6 flex flex-col items-center md:items-start">
+                    <h2 className="text-xl md:text-2xl font-bold text-black mt-4 md:mt-0 mb-2 md:mb-4 text-center md:text-left">
+                        Start Your Singapore journey now!
+                    </h2>
+                    <button className="mt-2 md:mt-0 bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
+                        Contact Us!
+                    </button>
                 </div>
             </div>
 
+            <ExploreCountries />
 
         </div>
     )

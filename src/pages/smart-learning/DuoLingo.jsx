@@ -1,5 +1,6 @@
 import React from 'react'
 import { duoLingoData, crackDuolingo, duolingoProgram } from '../../data/exams/DuolingoData'
+import ExploreExams from '../../components/ExploreExams'
 
 function DuoLingo() {
   return (
@@ -20,7 +21,7 @@ function DuoLingo() {
           </h2>
           <p className="text-gray-700 mb-4 md:mb-6 mt-4 text-center md:text-left">
             Trust Apex Consultancy expert DUOLINGO mentors to equip you with the
-            knowledge and strategies you need to succeed. Thousands of GMAT aspirants have got their desired score with us.
+            knowledge and strategies you need to succeed. Thousands of DUOLINGO aspirants have got their desired score with us.
           </p>
           <div className="items-center justify-center">
             <button className="text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
@@ -51,58 +52,41 @@ function DuoLingo() {
       {/* Exam Structure  */}
       <div className='bg-red-500 w-full'>
         <div className="px-4 md:px-8 w-full overflow-x-auto mb-10">
-          <h3 className="text-lg sm:text-xl md:text-3xl font-bold text-white text-center mt-8 md:mt-10">DUOLINGO Exam Structure</h3>
+          <h3 className="text-lg sm:text-xl md:text-3xl font-bold text-white text-center mt-8 md:mt-10">
+            DUOLINGO Exam Structure
+          </h3>
           <table className="min-w-[250px] md:min-w-full bg-white border border-gray-500 text-sm md:text-base mt-8">
             <thead>
               <tr className="bg-gray-100 text-gray-600">
                 <th className="text-left py-3 px-4 border-b">Section</th>
-                <th className="text-left py-3 px-4 border-b">Number of Questions</th>
-                <th className="text-left py-3 px-4 border-b">Type of Questions</th>
+                <th className="text-left py-3 px-4 border-b">Details</th>
                 <th className="text-left py-3 px-4 border-b">Duration</th>
               </tr>
             </thead>
             <tbody>
               <tr className="hover:bg-red-200">
-                <td className="py-3 px-4 border-b font-medium">Verbal Reasoning</td>
-                <td className="py-3 px-4 border-b">36</td>
+                <td className="py-3 px-4 border-b font-medium">Adaptive Test Section</td>
                 <td className="py-3 px-4 border-b">
                   <ul className="list-disc list-inside">
-                    <li>Critical Reasoning</li>
-                    <li>Sentence Correction</li>
-                    <li>Reading Comprehension</li>
+                    <pre>Reading</pre>
+                    <pre>Writing</pre>
+                    <pre>Listening</pre>
+                    <pre>Speaking</pre>
+                    <pre>Question types adapt based on performance</pre>
                   </ul>
                 </td>
-                <td className="py-3 px-4 border-b">75 minutes</td>
+                <td className="py-3 px-4 border-b">45 minutes</td>
               </tr>
               <tr className="hover:bg-red-200">
-                <td className="py-3 px-4 border-b font-medium">Quantitative Reasoning</td>
-                <td className="py-3 px-4 border-b">31</td>
+                <td className="py-3 px-4 border-b font-medium">Writing & Speaking Video Interview</td>
                 <td className="py-3 px-4 border-b">
                   <ul className="list-disc list-inside">
-                    <li>Problem Solving</li>
-                    <li>Data Sufficiency</li>
+                    <pre>Open-ended prompts</pre>
+                    <pre>2 writing prompts</pre>
+                    <pre>2 speaking prompts</pre>
                   </ul>
                 </td>
-                <td className="py-3 px-4 border-b">75 minutes</td>
-              </tr>
-              <tr className="hover:bg-red-200">
-                <td className="py-3 px-4 border-b font-medium">Integrated Reasoning</td>
-                <td className="py-3 px-4 border-b">12</td>
-                <td className="py-3 px-4 border-b">
-                  <ul className="list-disc list-inside">
-                    <li>Table Analysis</li>
-                    <li>Two-Part Analysis</li>
-                    <li>Graphics Interpretation</li>
-                    <li>Multi-source Reasoning</li>
-                  </ul>
-                </td>
-                <td className="py-3 px-4 border-b">30 minutes</td>
-              </tr>
-              <tr className="hover:bg-red-200">
-                <td className="py-3 px-4 border-b font-medium">Analytical Writing Assessment (AWA)</td>
-                <td className="py-3 px-4 border-b">1</td>
-                <td className="py-3 px-4 border-b">Argument Analysis</td>
-                <td className="py-3 px-4 border-b">30 minutes</td>
+                <td className="py-3 px-4 border-b">10 minutes</td>
               </tr>
             </tbody>
           </table>
@@ -110,14 +94,15 @@ function DuoLingo() {
         </div>
       </div>
 
+
       {/* {What is a Good Duolingo Score} */}
       <div className='w-full bg-pink-50 border-collapse rounded-lg p-8'>
-        <h3 className="text-lg sm:text-xl md:text-3xl font-bold text-black text-center mt-4 md:mt-10">What is a Good DUOLINGO Score ?</h3>
+        <h3 className="text-lg sm:text-xl md:text-3xl font-bold text-black text-center md:mt-10">What is a Good DUOLINGO Score ?</h3>
         <div className="mt-6 px-4 md:px-16"> {/* Added padding for better mobile spacing */}
           <img
-            src="src/assets/img/exams/banners/gmat-score.png"
-            alt="GMAT Score"
-            className="w-full max-w-[500px] max-h-[400px] h-auto object-contain mx-auto"
+            src="src\assets\img\exams\banners\duolingo-score.png"
+            alt="Dulingo Score"
+            className="w-full mt-4 max-w-[600px] max-h-[600px] h-auto object-contain mx-auto"
           />
         </div>
       </div>
@@ -143,17 +128,19 @@ function DuoLingo() {
       {/* Discover Our DUOLINGO Programs */}
       <div className="w-full py-12 bg-gray-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-lg sm:text-xl md:text-3xl font-bold text-black text-center mt-4 md:mt-10">
-            Discover Our DUOLINGO Programs
+          <h2 className="text-lg sm:text-xl md:text-2xl font-medium text-black text-center mt-6">
+            Discover Our Duolingo Programs
           </h2>
-          <p className="text-sm sm:text-base md:text-lg font-medium text-black text-center mt-2 md:mt-6">
-            Choose your path to start your DUOLINGO Prep Journey.
+          <p className="text-sm sm:text-base md:text-lg font-medium text-black text-center mt-2">
+            Choose your path to start your Duolingo Prep Journey.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
+
+          {/* Flex layout for 2 narrower cards */}
+          <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-6">
             {duolingoProgram.map((program, index) => (
               <div
                 key={index}
-                className="bg-white mt-10 rounded-lg shadow-md overflow-hidden hover:shadow-black transition-shadow duration-300"
+                className="bg-white rounded-lg shadow-md hover:shadow-black transition-shadow duration-400 w-full max-w-sm"
               >
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-blue-600 mb-4">{program.title}</h3>
@@ -185,6 +172,7 @@ function DuoLingo() {
       </div>
 
 
+
       {/* image for the apply now button */}
       <div className="flex flex-col md:flex-row items-center w-full bg-gradient-to-r from-indigo-100 via-red-300 to-pink-200">
         <div className="w-full md:w-1/2">
@@ -203,6 +191,10 @@ function DuoLingo() {
           </button>
         </div>
       </div>
+
+      <ExploreExams />
+
+
 
     </div>
   )

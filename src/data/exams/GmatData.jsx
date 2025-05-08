@@ -57,30 +57,7 @@ export const crackGmat = [
 
 export const programData = [
     {
-        title: "GMAT Offline",
-        time: "7:00 PM to 8:00 PM",
-        batchStart: "5th of Every Month",
-        duration: "30 days",
-        features: [
-            "Certified and experienced faculty",
-            "Advanced Quantitative Strategies",
-            "Critical Reasoning Techniques",
-            "Data Sufficiency Mastery",
-            "Integrated Reasoning Proficiency",
-            "Verbal Precision Enhancement",
-            "Time Management Strategies",
-            "AWA Essay Excellence",
-            "Specialized Topic Workshops",
-            "Personalized Study Plan",
-            "Personalized Guidance",
-            "Mock Test Analysis",
-            "Adaptive Learning Approach",
-            "Application and Admission Insights",
-            "Success-driven Mindset Development",
-        ],
-    },
-    {
-        title: "GMAT Offline",
+        title: "GMAT Online",
         time: "7:00 PM to 8:00 PM",
         batchStart: "5th of Every Month",
         duration: "30 days",

@@ -2,6 +2,8 @@ import React from 'react'
 
 import { ieltsFactsData, crackIelts, ieltsTrainingData } from '../../data/exams/IeltsData'
 
+import ExploreExams from '../../components/ExploreExams'
+
 function IELTS() {
   return (
 
@@ -113,7 +115,7 @@ function IELTS() {
       {/* Crack GMAT Section (Looks responsive with grid) */}
       <div className='bg-red-500 w-full'>
         <h3 className="text-lg sm:text-xl md:text-2xl font-medium text-white text-center mt-6 md:mt-6">Crack IELTS with <strong>7+</strong> Bands in 30 Days With Apex Consultancy</h3>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 md:px-16 w-full mb-10 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 md:px-16 w-full mb-10 mt-8">
           {crackIelts.map((card, index) => (
             <div
               key={index}
@@ -132,17 +134,19 @@ function IELTS() {
       {/* Discover Our IELTS Programs */}
       <div className="w-full py-12 bg-gray-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-lg sm:text-xl md:text-2xl font-medium text-black text-center mt-6 md:mt-6">
+          <h2 className="text-lg sm:text-xl md:text-2xl font-medium text-black text-center mt-6">
             Discover Our IELTS Programs
           </h2>
-          <p className="text-sm sm:text-base md:text-lg font-medium text-black text-center mt-2 md:mt-6">
+          <p className="text-sm sm:text-base md:text-lg font-medium text-black text-center mt-2">
             Choose your path to start your IELTS Prep Journey.
           </p>
-          <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+
+          {/* Flex layout for 2 narrower cards */}
+          <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-6">
             {ieltsTrainingData.map((program, index) => (
               <div
                 key={index}
-                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-black transition-shadow duration-400"
+                className="bg-white rounded-lg shadow-md hover:shadow-black transition-shadow duration-400 w-full max-w-sm"
               >
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-blue-600 mb-4">{program.title}</h3>
@@ -192,6 +196,8 @@ function IELTS() {
           </button>
         </div>
       </div>
+
+      <ExploreExams />
 
 
 

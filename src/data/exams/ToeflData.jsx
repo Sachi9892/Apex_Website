@@ -100,28 +100,6 @@ export const toeflProgram = [
             "Time Management Techniques",
         ],
     },
-    {
-        title: "TOEFL Online",
-        time: "7:00 PM to 8:00 PM",
-        batchStart: "5th of Every Month",
-        duration: "30 days",
-        features: [
-            "Grammar Mastery",
-            "Effective Sentence Structure",
-            "Reading Comprehension",
-            "Listening & Speaking Practice",
-            "Interactive Group Discussions",
-            "Comprehensive Study Materials",
-            "Daily Doubt - Solving Sessions",
-            "Weekly Full-Length Tests (FLT)",
-            "Strategies for All Question Types",
-            "Guided Teacher Interaction",
-            "Enhanced Listening Practice",
-            "Speaking Confidence Building",
-            "Writing Skill Refinement",
-            "Time Management Techniques",
-        ],
-    }
 ];
 
 
