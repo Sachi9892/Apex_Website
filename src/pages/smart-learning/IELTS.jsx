@@ -55,7 +55,7 @@ function IELTS() {
       {/* Exam Structure  */}
       <div className='bg-red-500 w-full'>
         <div className="px-4 md:px-8 w-full overflow-x-auto mb-10">
-          <h3 className="text-xl sm:text-base md:text-lg font-medium text-white text-center mt-6 md:mt-6">IELTS Exam Structure</h3>
+          <h3 className="text-3xl sm:text-3xl md:text-lg font-medium text-white text-center mt-6 md:mt-6">IELTS Exam Structure</h3>
           <table className="min-w-[250px] md:min-w-full bg-white border rounded-sm border-gray-300 text-sm md:text-base mt-8">
             <thead>
               <tr className="bg-gray-100 text-gray-700">
@@ -95,6 +95,7 @@ function IELTS() {
           <p className="text-white text-sm mt-2">** for more information contact us !</p>
         </div>
       </div>
+
 
       {/* marks */}
       <div className='w-full bg-pink-50 border-collapse rounded-lg p-8'>

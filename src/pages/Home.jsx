@@ -123,7 +123,7 @@ function Home() {
 
             <ExploreExams />
 
-
+            {/* list of universities */}
             <div
                 className="w-full py-10 bg-cover bg-center"
                 style={{ backgroundImage: "url('src/assets/img/countries/usa/us-bg.png')" }}
