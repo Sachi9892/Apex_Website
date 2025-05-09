@@ -26,6 +26,7 @@ function Immigration() {
         </div>
       </div>
 
+
       {/* left content + right img */}
       <div className="w-full flex flex-col-reverse md:flex-row items-center py-10 md:py-16 px-4 md:px-16 bg-white">
         {/* Left Content */}
@@ -58,7 +59,7 @@ function Immigration() {
 
 
 
-      <div className="w-full py-12 bg-red-500">
+      <div className="w-full py-12 bg-purple-500">
         <h2 className="text-3xl text-white font-bold text-center mb-10">Our Services</h2>
 
         <div className="grid gap-6 px-6 md:px-16 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
@@ -94,10 +95,6 @@ function Immigration() {
 
 
       <RegisterForm />
-
-
-
-
 
     </div>
   )

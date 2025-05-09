@@ -3,6 +3,7 @@ import { cards, images } from '../data/others/HomeData'
 import ExploreCountries from '../components/ExploreCountries'
 import ExploreExams from "../components/ExploreExams"
 
+
 function Home() {
 
     const [current, setCurrent] = useState(0);
@@ -142,8 +143,6 @@ function Home() {
 
 
             </div>
-
-
 
 
         </div>

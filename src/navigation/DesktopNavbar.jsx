@@ -88,7 +88,7 @@ const DesktopNavbar = () => {
                 { name: "Events", path: "/events" },
                 { name: "About", path: "/about" },
                 { name: "Blog", path: "/blog" },
-                { name: "Register Now", path: "/register" },
+                { name: "Contact-Us", path: "/contact-us" },
             ].map(({ name, path }) => (
                 <Link key={path} to={path}
                     className="text-base font-medium text-gray-800 hover:text-blue-600 transition-colors duration-200">
