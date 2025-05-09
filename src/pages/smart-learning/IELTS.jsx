@@ -3,6 +3,7 @@ import React from 'react'
 import { ieltsFactsData, crackIelts, ieltsTrainingData } from '../../data/exams/IeltsData'
 
 import ExploreExams from '../../components/ExploreExams'
+import ExploreCountries from '../../components/ExploreCountries'
 
 function IELTS() {
   return (
@@ -199,7 +200,7 @@ function IELTS() {
 
       <ExploreExams />
 
-
+      <ExploreCountries />
 
 
     </div>

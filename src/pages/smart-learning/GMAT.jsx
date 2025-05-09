@@ -1,6 +1,7 @@
 import React from 'react';
 import { gmatData, crackGmat, programData } from '../../data/exams/GmatData';
 import ExploreExams from '../../components/ExploreExams';
+import ExploreCountries from '../../components/ExploreCountries';
 
 function GMAT() {
   return (
@@ -209,6 +210,8 @@ function GMAT() {
       </div>
 
       <ExploreExams />
+
+      <ExploreCountries />
 
 
 

@@ -43,7 +43,7 @@ export const ausInfo = [
 
         ✔️ Some institutions also offer a November intake for specific courses.`,
 
-        image: "src/assets/img/models/model4.png",
+        image: "src/assets/img/models/model1.png",
     },
     {
         title: 'Study in Australia cost',
@@ -75,8 +75,9 @@ export const ausInfo = [
 
 
 export const images = [
-    "src/assets/img/countries/usa/Page1.png",
-    "src/assets/img/countries/usa/Page2.png",
-    "src/assets/img/countries/usa/Page3.png",
-    "src/assets/img/countries/usa/Page4.png",
+    "src/assets/img/countries/australia/page1.png",
+    "src/assets/img/countries/australia/page2.png",
+    "src/assets/img/countries/australia/page3.png",
+    "src/assets/img/countries/australia/page4.png",
+    "src/assets/img/countries/australia/page5.png",
 ];

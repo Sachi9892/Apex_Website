@@ -44,7 +44,7 @@ export const ukInfo = [
 
         ✔️ A secondary intake in the spring, around January/February, is available for select courses.`,
 
-        image: "src/assets/img/models/model4.png",
+        image: "src/assets/img/models/model1.png",
     },
     {
         title: 'Study in UK Cost',

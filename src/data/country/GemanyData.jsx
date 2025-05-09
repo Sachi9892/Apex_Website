@@ -53,7 +53,7 @@ export const germanyInfo = [
 
         ✔️ Some institutions may also offer a smaller Summer intake that starts in May or June. It’s essential to check specific program availability and application deadlines for each intake.`,
 
-        image: "src/assets/img/models/model4.png",
+        image: "src/assets/img/models/model1.png",
     },
     {
         title: 'Canada study cost',

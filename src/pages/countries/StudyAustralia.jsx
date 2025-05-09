@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { ausInfo, ausTestAccordion, whyToStudyAus, images } from '../../data/country/AustraliaData';
 import ExploreCountries from '../../components/ExploreCountries';
+import ExploreExams from '../../components/ExploreExams';
 
 function StudyAustralia() {
 
@@ -29,7 +30,7 @@ function StudyAustralia() {
       <div className="relative w-full ">
         <div className="w-full">
           <img
-            src="src\assets\img\countries\australia\australia.png"
+            src="src\assets\img\countries\australia\australia-banner.png"
             alt="GMAT Banner"
             className="block  max-h-[600px] w-full h-auto object-cover"
           />
@@ -117,7 +118,7 @@ function StudyAustralia() {
           {/* Image Section */}
           <div className="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center">
             <img
-              src="src/assets/img/countries/uk/study-uk.png"
+              src="src\assets\img\countries\australia\aus-apex.png"
               alt="model"
               className="min-w-full max-h-[500px] ml-4 md:max-w-sm w-full h-auto object-contain"
             />
@@ -134,7 +135,7 @@ function StudyAustralia() {
 
 
       {/* Courses in Australia  */}
-      <div className='w-full bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('src/assets/img/countries/usa/us-bg.png')" }}>
+      <div className='w-full bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('src/assets/img/countries/australia/aus-bg.png')" }}>
         <div className="px-4 md:px-8 w-full overflow-x-auto mb-10">
           <h3 className="text-3xl font-bold text-white mb-6 mt-10 text-center">Popular Courses to Study in Australia</h3>
           <table className="min-w-[250px] md:min-w-full bg-white border border-gray-500 text-sm md:text-base mt-8">
@@ -260,7 +261,7 @@ function StudyAustralia() {
       {/* Australia universities list */}
       <div
         className="w-full py-10 bg-cover bg-center"
-        style={{ backgroundImage: "url('src/assets/img/countries/usa/us-bg.png')" }}
+        style={{ backgroundImage: "url('src/assets/img/countries/australia/aus-bg.png')" }}
       >
         {/* USA Student Life Section */}
         <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6 text-white">
@@ -279,10 +280,11 @@ function StudyAustralia() {
 
       </div>
 
+
       {/* image for the apply now button */}
       <div
         className="flex flex-col md:flex-row items-center w-full bg-gradient-to-r from-indigo-100 via-red-300 to-pink-200"
-        style={{ backgroundImage: "url('src/assets/img/countries/usa/us-bg.png')" }}>
+        style={{ backgroundImage: "url('src/assets/img/countries/australia/aus-bg.png')" }}>
         <div className="w-full md:w-1/2">
           <img
             src="src/assets/img/models/boy.png"
@@ -302,6 +304,8 @@ function StudyAustralia() {
 
 
       <ExploreCountries />
+
+      <ExploreExams />
 
 
     </div>

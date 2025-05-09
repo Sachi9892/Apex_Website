@@ -51,7 +51,7 @@ export const singaporeInfo = [
 
         ✔️ The August intake is the main intake, while the January intake is smaller`,
 
-        image: "src/assets/img/models/model4.png",
+        image: "src/assets/img/models/model1.png",
     },
     {
         title: 'Singapore study cost',

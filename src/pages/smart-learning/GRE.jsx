@@ -3,6 +3,7 @@ import React from 'react'
 import { greFactsData, crackGre, grePorgram } from '../../data/exams/GreData'
 
 import ExploreExams from '../../components/ExploreExams'
+import ExploreCountries from '../../components/ExploreCountries'
 
 function GRE() {
   return (
@@ -193,7 +194,7 @@ function GRE() {
 
       <ExploreExams />
 
-
+      <ExploreCountries />
 
     </div>
   )

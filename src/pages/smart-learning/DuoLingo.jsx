@@ -1,6 +1,7 @@
 import React from 'react'
 import { duoLingoData, crackDuolingo, duolingoProgram } from '../../data/exams/DuolingoData'
 import ExploreExams from '../../components/ExploreExams'
+import ExploreCountries from '../../components/ExploreCountries'
 
 function DuoLingo() {
   return (
@@ -193,6 +194,8 @@ function DuoLingo() {
       </div>
 
       <ExploreExams />
+
+      <ExploreCountries />
 
 
 

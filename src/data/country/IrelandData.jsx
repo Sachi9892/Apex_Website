@@ -49,7 +49,7 @@ export const irelandInfo = [
         
         ✔️ It’s essential to check with your chosen university or course to confirm the specific intake availability.`,
 
-        image: "src/assets/img/models/model4.png",
+        image: "src/assets/img/models/model1.png",
     },
     {
         title: 'Study in Ireland cost',

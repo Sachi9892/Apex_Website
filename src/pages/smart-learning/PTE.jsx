@@ -1,6 +1,7 @@
 import React from 'react'
 import { pteCrack, pteFactsData, pteProgram } from '../../data/exams/PteData'
 import ExploreExams from '../../components/ExploreExams'
+import ExploreCountries from '../../components/ExploreCountries'
 
 function PTE() {
   return (
@@ -204,6 +205,7 @@ function PTE() {
 
       <ExploreExams />
 
+      <ExploreCountries />
 
     </div>
   )

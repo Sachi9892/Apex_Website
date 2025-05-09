@@ -1,6 +1,7 @@
 import React from 'react'
 import { toeflCrack, toeflProgram, toeflFacts } from '../../data/exams/ToeflData'
 import ExploreExams from '../../components/ExploreExams'
+import ExploreCountries from '../../components/ExploreCountries'
 
 function TOEFL() {
   return (
@@ -218,6 +219,9 @@ function TOEFL() {
 
 
       <ExploreExams />
+
+
+      <ExploreCountries />
 
 
     </div>

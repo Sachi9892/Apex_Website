@@ -51,7 +51,7 @@ export const usInfo = [
         ✔️ The Fall intake usually begins in August or September, while the Spring intake starts in January.
 
         ✔️ Some universities may also have a Summer intake, which begins in May.`,
-        image: "src/assets/img/models/model4.png",
+        image: "src/assets/img/models/model1.png",
     },
     {
         title: 'Cost of Studying in USA for Indian students',

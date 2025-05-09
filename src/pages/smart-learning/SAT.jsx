@@ -1,6 +1,7 @@
 import React from 'react'
 import { satCrack, satFacts, satProgram } from '../../data/exams/SatData'
 import ExploreExams from '../../components/ExploreExams'
+import ExploreCountries from '../../components/ExploreCountries'
 
 function SAT() {
     return (
@@ -199,6 +200,8 @@ function SAT() {
             </div>
 
             <ExploreExams />
+
+            <ExploreCountries />
 
         </div>
     )

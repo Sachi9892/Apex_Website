@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import { whyToStudySingapore, singaporeInfo, singaporeTestAccordion, images } from '../../data/country/SingaporeData';
 
 import ExploreCountries from '../../components/ExploreCountries';
+import ExploreExams from '../../components/ExploreExams';
 
 function StudySingapore() {
 
@@ -308,6 +309,8 @@ function StudySingapore() {
             </div>
 
             <ExploreCountries />
+            
+            <ExploreExams />
 
         </div>
     )

@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { canadaInfo, canadaTestAccordion, whyToStudyCanada, images } from '../../data/country/CanadaData';
 
 import ExploreCountries from '../../components/ExploreCountries';
+import ExploreExams from '../../components/ExploreExams';
 
 function StudyCanada() {
 
@@ -305,6 +306,9 @@ function StudyCanada() {
       </div>
 
       <ExploreCountries />
+
+
+      <ExploreExams />
 
 
     </div>

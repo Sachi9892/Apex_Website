@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { whyToStudyUsa, usaTestAccordion, usInfo, images } from '../../data/country/UsData'
 import ExploreCountries from '../../components/ExploreCountries';
+import ExploreExams from '../../components/ExploreExams';
 
 function StudyUsa() {
 
@@ -309,6 +310,8 @@ function StudyUsa() {
       </div>
 
       <ExploreCountries />
+
+      <ExploreExams />
 
 
     </div>
