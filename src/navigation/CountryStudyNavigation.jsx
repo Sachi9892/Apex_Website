@@ -8,7 +8,8 @@ import StudyUK from '../pages/countries/StudyUK';
 import StudyUsa from '../pages/countries/StudyUsa';
 import StudyIreland from '../pages/countries/StudyIreland';
 import StudyGermany from '../pages/countries/StudyGermany';
-import StudySingapore from '../pages/countries/StudySingapore';
+import StudyDubai from '../pages/countries/StudyDubai';
+
 import StudyNewzealand from '../pages/countries/StudyNewzealand';
 
 // Just export an array of Route elements
@@ -21,7 +22,7 @@ const countryRoutes = [
     <Route path='/study-usa' element={<StudyUsa />} key="usa" />,
     <Route path='/study-germany' element={<StudyGermany />} key="germany" />,
     <Route path='/study-newzealand' element={<StudyNewzealand />} key="newzealand" />,
-    <Route path='/study-singapore' element={<StudySingapore />} key="signapore" />
+    <Route path='/study-dubai' element={<StudyDubai />} key="dubai" />
 ];
 
 export default countryRoutes;

@@ -1,11 +1,15 @@
 import React, { useState, useEffect } from 'react'
 
-import { whyToStudySingapore, singaporeInfo, singaporeTestAccordion, images } from '../../data/country/SingaporeData';
+import { whyToStudyDubai, dubaiInfo, dubaiTestAccordion, images } from '../../data/country/DubaiData';
 
 import ExploreCountries from '../../components/ExploreCountries';
 import ExploreExams from '../../components/ExploreExams';
+import ImageWithTextAndButton from '../../components/ImageWithTextAndButton';
+import { useNavigate } from "react-router-dom";
 
-function StudySingapore() {
+function StudyDubai() {
+
+    const navigate = useNavigate()
 
     const [openIndex, setOpenIndex] = useState(null);
 
@@ -27,6 +31,7 @@ function StudySingapore() {
 
 
     return (
+
         <div className="w-full flex flex-col items-center space-y-8">
 
             {/* Banner Section */}
@@ -40,7 +45,7 @@ function StudySingapore() {
                 </div>
                 {/* Desktop Button */}
                 <div className="absolute bottom-4 left-4 md:block hidden">
-                    <button className="text-center ml-10 mb-32 bg-red-500 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full">
+                    <button onClick={() => navigate("/contact-us")} className="text-center ml-10 mb-32 bg-red-500 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full">
                         Click To Fly !
                     </button>
                 </div>
@@ -52,11 +57,12 @@ function StudySingapore() {
                 </div>
             </div>
 
-            {/* Why to study in Singapore  */}
+
+            {/* Why to study in Dubai  */}
             <div className='bg-pink-100 w-full'>
-                <h3 className="text-3xl font-semibold text-black-600 mt-10 text-center"><strong>Why To Study In Singapore</strong></h3>
+                <h3 className="text-xl text-black mt-4 mb-6 sm:text-2xl md:text-3xl mt-4 font-bold text-black text-center"><strong>Why To Study In Dubai</strong></h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-4 md:px-16 w-full mb-10 mt-8">
-                    {whyToStudySingapore.map((card, index) => (
+                    {whyToStudyDubai.map((card, index) => (
                         <div
                             key={index}
                             className="bg-white shadow-md rounded-lg p-6 hover:shadow-black transition duration-400"
@@ -69,17 +75,16 @@ function StudySingapore() {
             </div>
 
 
-
-            {/* Tests Required to Study in Singapore */}
+            {/* Tests Required to Study in Dubai */}
             <div className="w-full p-6">
-                <h2 className="text-3xl font-bold text-center text-black mb-6">
-                    Tests Required to Study in Singapore
+                <h2 className="text-xl text-black mt-4 mb-6 sm:text-2xl md:text-3xl mt-4 font-bold text-black text-center">
+                    <strong>Tests Required to Study in Dubai</strong>
                 </h2>
 
                 <div className="flex flex-col md:flex-row items-start w-full">
                     {/* Accordion Section */}
                     <div className="w-full md:w-1/2 space-y-4">
-                        {singaporeTestAccordion.map((item, index) => {
+                        {dubaiTestAccordion.map((item, index) => {
                             const isOpen = openIndex === index;
                             return (
                                 <div
@@ -111,7 +116,7 @@ function StudySingapore() {
 
                         {/* Desktop Button Below Accordions */}
                         <div className="hidden md:flex mt-6">
-                            <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full">
+                            <button onClick={() => navigate("/contact-us")} className="bg-red-500 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full">
                                 Start To Prep
                             </button>
                         </div>
@@ -129,80 +134,74 @@ function StudySingapore() {
 
                 {/* Mobile Button */}
                 <div className="mt-4 md:hidden flex justify-center">
-                    <button className="bg-red-500  hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full">
+                    <button onClick={() => navigate("/contact-us")} className="bg-red-500  hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full">
                         Start To Prep
                     </button>
                 </div>
             </div>
 
 
-            {/* Courses in Singapore  */}
+            {/* Courses in Dubai  */}
             <div className='w-full bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('src/assets/img/countries/usa/us-bg.png')" }}>
                 <div className="px-4 md:px-8 w-full overflow-x-auto mb-10">
-                    <h3 className="text-3xl font-bold text-white mb-6 mt-10 text-center">Popular Courses to Study in Singapore</h3>
+                    <h3 className="text-xl text-black mt-4 mb-6 sm:text-2xl md:text-3xl mt-4 font-bold text-white text-center"><strong>Popular Courses to Study in Dubai</strong></h3>
                     <table className="min-w-[250px] md:min-w-full bg-white border border-gray-500 text-sm md:text-base mt-8">
                         <thead>
                             <tr className="bg-gray-100 text-gray-600">
-                                <th className="text-left py-3 px-4 border-b">Program</th>
+                                <th className="text-left py-3 px-4 border-b">Field</th>
+                                <th className="text-left py-3 px-4 border-b">Popular Courses</th>
                                 <th className="text-left py-3 px-4 border-b">Duration</th>
-                                <th className="text-left py-3 px-4 border-b">Average Fee (per year)</th>
                                 <th className="text-left py-3 px-4 border-b">Scholarship ?</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr className="hover:bg-red-200">
-                                <td className="py-3 px-4 border-b font-medium">Marine Biology</td>
-                                <td className="py-3 px-4 border-b">3 years</td>
-                                <td className="py-3 px-4 border-b">	25,000 - 40,000</td>
+                                <td className="py-3 px-4 border-b font-medium">Aerospace Engineering</td>
+                                <td className="py-3 px-4 border-b">BSc Aerospace Engineering</td>
+                                <td className="py-3 px-4 border-b">4 years</td>
                                 <td className="py-3 px-4 border-b">✔️</td>
                             </tr>
 
                             <tr className="hover:bg-red-200">
-                                <td className="py-3 px-4 border-b font-medium">Business Management</td>
-                                <td className="py-3 px-4 border-b">3 Years</td>
-                                <td className="py-3 px-4 border-b">25,000 - 40,000</td>
-                                <td className="py-3 px-4 border-b">✔️</td>
-                            </tr>
-                            <tr className="hover:bg-red-200">
-                                <td className="py-3 px-4 border-b font-medium">Banking and Finance</td>
-                                <td className="py-3 px-4 border-b">3 Years</td>
-                                <td className="py-3 px-4 border-b">35,000 - 50,000</td>
-                                <td className="py-3 px-4 border-b">✔️</td>
-                            </tr>
-                            <tr className="hover:bg-red-200">
-                                <td className="py-3 px-4 border-b font-medium">IT and Computing</td>
-                                <td className="py-3 px-4 border-b">3 Years</td>
-                                <td className="py-3 px-4 border-b">30,000 - 50000</td>
-                                <td className="py-3 px-4 border-b ml-4">✔️</td>
-                            </tr>
-                            <tr className="hover:bg-red-200">
-                                <td className="py-3 px-4 border-b font-medium">Engineering</td>
-                                <td className="py-3 px-4 border-b">4 Years</td>
-                                <td className="py-3 px-4 border-b">	35,000 - 50,000</td>
-                                <td className="py-3 px-4 border-b">✔️</td>
-                            </tr>
-                            <tr className="hover:bg-red-200">
-                                <td className="py-3 px-4 border-b font-medium">Tourism and Hospitality</td>
-                                <td className="py-3 px-4 border-b">3 Years</td>
-                                <td className="py-3 px-4 border-b">25,000 - 40,000</td>
-                                <td className="py-3 px-4 border-b">✔️</td>
-                            </tr>
-                            <tr className="hover:bg-red-200">
                                 <td className="py-3 px-4 border-b font-medium">Architecture</td>
-                                <td className="py-3 px-4 border-b">3 Years</td>
-                                <td className="py-3 px-4 border-b">30,000 - 50,000</td>
+                                <td className="py-3 px-4 border-b">BArch Architecture</td>
+                                <td className="py-3 px-4 border-b">5 years</td>
                                 <td className="py-3 px-4 border-b">✔️</td>
                             </tr>
                             <tr className="hover:bg-red-200">
-                                <td className="py-3 px-4 border-b font-medium">Medicine</td>
-                                <td className="py-3 px-4 border-b">5 Years</td>
-                                <td className="py-3 px-4 border-b">	50,000 - 70,000</td>
+                                <td className="py-3 px-4 border-b font-medium">Business Management</td>
+                                <td className="py-3 px-4 border-b">MBA Business Management</td>
+                                <td className="py-3 px-4 border-b">2 years</td>
                                 <td className="py-3 px-4 border-b">✔️</td>
                             </tr>
                             <tr className="hover:bg-red-200">
-                                <td className="py-3 px-4 border-b font-medium">Law</td>
-                                <td className="py-3 px-4 border-b">4 Years</td>
-                                <td className="py-3 px-4 border-b">	40,000 - 60,000</td>
+                                <td className="py-3 px-4 border-b font-medium">Construction Management</td>
+                                <td className="py-3 px-4 border-b">Msc Construction Management</td>
+                                <td className="py-3 px-4 border-b">2 years</td>
+                                <td className="py-3 px-4 border-b">✔️</td>
+                            </tr>
+                            <tr className="hover:bg-red-200">
+                                <td className="py-3 px-4 border-b font-medium">Information Technology</td>
+                                <td className="py-3 px-4 border-b">Bsc Information Technology</td>
+                                <td className="py-3 px-4 border-b">4 years</td>
+                                <td className="py-3 px-4 border-b">✔️</td>
+                            </tr>
+                            <tr className="hover:bg-red-200">
+                                <td className="py-3 px-4 border-b font-medium">Psychology</td>
+                                <td className="py-3 px-4 border-b">Bsc Psychology</td>
+                                <td className="py-3 px-4 border-b">3 years</td>
+                                <td className="py-3 px-4 border-b">✔️</td>
+                            </tr>
+                            <tr className="hover:bg-red-200">
+                                <td className="py-3 px-4 border-b font-medium">Public Relations & Media</td>
+                                <td className="py-3 px-4 border-b">BA In Public Relations & Media</td>
+                                <td className="py-3 px-4 border-b">3 years</td>
+                                <td className="py-3 px-4 border-b">✔️</td>
+                            </tr>
+                            <tr className="hover:bg-red-200">
+                                <td className="py-3 px-4 border-b font-medium">Tourism and Hospitality Management</td>
+                                <td className="py-3 px-4 border-b">Bsc Tourism & Hospitality Management</td>
+                                <td className="py-3 px-4 border-b">3 years</td>
                                 <td className="py-3 px-4 border-b">✔️</td>
                             </tr>
                         </tbody>
@@ -211,16 +210,16 @@ function StudySingapore() {
             </div>
 
 
-            {/* All you need to know about Study in Canada */}
+            {/* All you need to know about Study in Dubai */}
             <div className="w-full px-6 md:px-16 py-10 bg-gray-50">
                 {/* Heading */}
-                <h3 className="text-3xl font-bold text-black mb-6 text-center">
-                    All you need to know about Study in Singapore
+                <h3 className="text-xl text-black mt-4 mb-6 sm:text-2xl md:text-3xl mt-4 font-bold text-black text-center">
+                    <strong>All you need to know about Study in Dubai</strong>
                 </h3>
 
                 {/* Navbar with background */}
                 <div className="w-full bg-white p-4 rounded-xl shadow-sm mb-8 flex justify-center flex-wrap gap-4 md:gap-6">
-                    {singaporeInfo.map((item, index) => (
+                    {dubaiInfo.map((item, index) => (
                         <button
                             key={index}
                             onClick={() => setActiveIndex(index)}
@@ -240,14 +239,14 @@ function StudySingapore() {
                     {/* Left Content */}
                     <div className="md:w-2/3 w-full bg-white rounded-xl p-6 shadow-md">
                         <h3 className="text-2xl font-bold text-blue-700 mb-4">
-                            {singaporeInfo[activeIndex].title}
+                            {dubaiInfo[activeIndex].title}
                         </h3>
                         <p className="text-black whitespace-pre-line">
-                            {singaporeInfo[activeIndex].content}
+                            {dubaiInfo[activeIndex].content}
                         </p>
 
                         <div className="mt-6">
-                            <button className="bg-red-700 hover:bg-white hover:text-red-700 text-white font-bold py-3 px-6 rounded-full border border-red-700 transition duration-300">
+                            <button onClick={() => navigate("/contact-us")} className="bg-red-700 hover:bg-white hover:text-red-700 text-white font-bold py-3 px-6 rounded-full border border-red-700 transition duration-300">
                                 Start Your Application
                             </button>
                         </div>
@@ -256,8 +255,8 @@ function StudySingapore() {
                     {/* Right Image */}
                     <div className="md:w-1/3 w-full flex justify-center items-start">
                         <img
-                            src={singaporeInfo[activeIndex].image}
-                            alt={singaporeInfo[activeIndex].title}
+                            src={dubaiInfo[activeIndex].image}
+                            alt={dubaiInfo[activeIndex].title}
                             className="object-contain w-full h-full max-h-[500px] rounded-lg"
                         />
                     </div>
@@ -266,14 +265,14 @@ function StudySingapore() {
 
 
 
-            {/* Singapore universities list */}
+            {/* Dubai universities list */}
             <div
                 className="w-full py-10 bg-cover bg-center"
                 style={{ backgroundImage: "url('src/assets/img/countries/usa/us-bg.png')" }}
             >
                 {/* USA Student Life Section */}
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6 text-white">
-                    Best University In Singapore
+                    Best University In Dubai
                 </h2>
 
                 {/* Slideshow Image Container */}
@@ -289,31 +288,18 @@ function StudySingapore() {
             </div>
 
 
-            {/* image for the apply now button */}
-            <div className="flex flex-col md:flex-row items-center w-full bg-gradient-to-r from-indigo-100 via-red-300 to-pink-200">
-                <div className="w-full md:w-1/2">
-                    <img
-                        src="src/assets/img/models/boy.png"
-                        alt="SAT Banner"
-                        className="block max-w-[300px] w-full h-auto object-contain mx-auto"
-                    />
-                </div>
-                <div className="w-full md:w-1/2 p-6 flex flex-col items-center md:items-start">
-                    <h2 className="text-xl md:text-2xl font-bold text-black mt-4 md:mt-0 mb-2 md:mb-4 text-center md:text-left">
-                        Start Your Singapore journey now!
-                    </h2>
-                    <button className="mt-2 md:mt-0 bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
-                        Contact Us!
-                    </button>
-                </div>
-            </div>
+            <ImageWithTextAndButton
+                bgImage="src/assets/img/countries/france/france-bg.png"
+                heading="Fly to Dubai"
+                imgSrc="src/assets/img/models/boy.png"
+            />
 
             <ExploreCountries />
-            
+
             <ExploreExams />
 
         </div>
     )
 }
 
-export default StudySingapore
+export default StudyDubai

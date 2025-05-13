@@ -38,7 +38,7 @@ function ExploreCountries() {
     return (
         <div className="w-full flex flex-col items-center py-10 space-y-8 bg-gray-50">
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center">
-                <strong>Explore Countries With Apex</strong>
+                <strong>Explore Countries With Apex Educare</strong>
             </h2>
 
             <div className="flex flex-col sm:flex-row items-center w-full max-w-7xl px-2 ml-2 sm:px-4 space-y-4 sm:space-y-0 sm:space-x-4 ml-2">
@@ -58,11 +58,11 @@ function ExploreCountries() {
                             onClick={() => navigate(country.path)}
                             className="w-full sm:w-1/3 bg-white rounded-lg shadow hover:shadow-md transition p-4 flex flex-col items-center text-center cursor-pointer mb-4 sm:mb-0"
                         >
-                            <div className="w-full h-40 mb-3 overflow-hidden rounded">
+                            <div className="w-full h-40 mb-3 overflow-hidden">
                                 <img
                                     src={country.flag}
                                     alt={country.name}
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full border object-cover"
                                 />
                             </div>
                             <p className="text-sm sm:text-base font-medium">{country.name}</p>

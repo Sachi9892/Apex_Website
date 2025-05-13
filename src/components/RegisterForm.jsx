@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 
 function RegisterForm() {
+
+    const [loading, setLoading] = useState(false);
+
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [mobile, setMobile] = useState('');
@@ -41,102 +44,137 @@ function RegisterForm() {
         return isValid;
     };
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        if (validate()) {
-            // Simulate form submission
-            console.log('Form submitted:', { name, email, mobile, reason });
-            // You would typically send this data to your backend
-            alert('Form submitted successfully!');
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        if (!validate()) return;
+
+        setLoading(true); // Start loading
+
+        const data = { name, email, mobile, reason };
+
+        try {
+            const res = await fetch('http://localhost:5000/send', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+
+            const result = await res.json();
+            alert(result.message);
+
+            // Reset form
             setName('');
             setEmail('');
             setMobile('');
             setReason('');
             setErrors({});
+        } catch (err) {
+            alert('Something went wrong. Please try again later.' , err);
+        } finally {
+            setLoading(false); // Stop loading
         }
     };
+    
+    
 
     return (
-        <div className="w-full bg-gray-200 py-12 px-4 md:px-10 flex justify-center">
-            <form
-                onSubmit={handleSubmit}
-                className="bg-white rounded-2xl shadow-lg p-8 md:p-10 w-full max-w-2xl space-y-6"
-            >
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-800 text-center">
-                    Get in Touch With Us
-                </h2>
+        <div className="w-full bg-white py-8 px-4 flex justify-center items-center"> {/* Removed min-h-screen and centering */}
+            <div className="w-full max-w-md">
+                <form
+                    onSubmit={handleSubmit}
+                    className="bg-white rounded-xl shadow-md overflow-hidden"
+                >
+                    {/* Embedded Image */}
+                    <div className="w-full h-40 md:h-48 overflow-hidden">
+                        <img
+                            src="src/assets/img/apex/apex-form-logo.png" // Replace with your actual path
+                            alt="Contact Us"
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
 
-                {/* Name */}
-                <div>
-                    <label className="block text-gray-700 font-medium mb-1">Name</label>
-                    <input
-                        type="text"
-                        placeholder="Enter your full name"
-                        className={`w-full px-4 py-3 border ${errors.name ? 'border-red-500' : 'border-gray-300'
-                            } rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500`}
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                    />
-                    {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
-                </div>
+                    {/* Form Content */}
+                    <div className="p-5 md:p-6 space-y-5">
+                        <h2 className="text-xl md:text-2xl font-bold text-gray-800 text-center">
+                            Get in Touch With Us
+                        </h2>
 
-                {/* Email */}
-                <div>
-                    <label className="block text-gray-700 font-medium mb-1">Email</label>
-                    <input
-                        type="email"
-                        placeholder="Enter your email address"
-                        className={`w-full px-4 py-3 border ${errors.email ? 'border-red-500' : 'border-gray-300'
-                            } rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500`}
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                    />
-                    {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
-                </div>
+                        {/* Name */}
+                        <div>
+                            <label className="block text-gray-700 font-medium text-sm mb-1">Name</label>
+                            <input
+                                type="text"
+                                placeholder="Full Name"
+                                className={`w-full px-3 py-2 border ${errors.name ? 'border-red-500' : 'border-gray-300'} rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm`}
+                                value={name}
+                                onChange={(e) => setName(e.target.value)}
+                            />
+                            {errors.name && <p className="text-red-500 text-xs mt-1">{errors.name}</p>}
+                        </div>
 
-                {/* Mobile Number */}
-                <div>
-                    <label className="block text-gray-700 font-medium mb-1">Mobile Number</label>
-                    <input
-                        type="tel"
-                        placeholder="Enter your phone number"
-                        className={`w-full px-4 py-3 border ${errors.mobile ? 'border-red-500' : 'border-gray-300'
-                            } rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500`}
-                        value={mobile}
-                        onChange={(e) => setMobile(e.target.value)}
-                    />
-                    {errors.mobile && <p className="text-red-500 text-sm mt-1">{errors.mobile}</p>}
-                </div>
+                        {/* Email */}
+                        <div>
+                            <label className="block text-gray-700 font-medium text-sm mb-1">Email</label>
+                            <input
+                                type="email"
+                                placeholder="Email address"
+                                className={`w-full px-3 py-2 border ${errors.email ? 'border-red-500' : 'border-gray-300'} rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm`}
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                            />
+                            {errors.email && <p className="text-red-500 text-xs mt-1">{errors.email}</p>}
+                        </div>
 
-                {/* Reason */}
-                <div>
-                    <label className="block text-gray-700 font-medium mb-1">Reason for Contact</label>
-                    <select
-                        className={`w-full px-4 py-3 border ${errors.reason ? 'border-red-500' : 'border-gray-300'
-                            } rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500`}
-                        value={reason}
-                        onChange={(e) => setReason(e.target.value)}
-                    >
-                        <option value="">Select a reason</option>
-                        <option value="student">Student</option>
-                        <option value="university">University Representative</option>
-                        <option value="partnership">Looking for Partnership</option>
-                    </select>
-                    {errors.reason && <p className="text-red-500 text-sm mt-1">{errors.reason}</p>}
-                </div>
+                        {/* Mobile */}
+                        <div>
+                            <label className="block text-gray-700 font-medium text-sm mb-1">Mobile</label>
+                            <input
+                                type="tel"
+                                placeholder="Phone number"
+                                className={`w-full px-3 py-2 border ${errors.mobile ? 'border-red-500' : 'border-gray-300'} rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm`}
+                                value={mobile}
+                                onChange={(e) => setMobile(e.target.value)}
+                            />
+                            {errors.mobile && <p className="text-red-500 text-xs mt-1">{errors.mobile}</p>}
+                        </div>
 
-                {/* Submit Button */}
-                <div className="flex justify-center">
-                    <button
-                        type="submit"
-                        className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition duration-300"
-                    >
-                        Submit
-                    </button>
-                </div>
-            </form>
+                        {/* Reason */}
+                        <div>
+                            <label className="block text-gray-700 font-medium text-sm mb-1">Reason</label>
+                            <select
+                                className={`w-full px-3 py-2 border ${errors.reason ? 'border-red-500' : 'border-gray-300'} rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm`}
+                                value={reason}
+                                onChange={(e) => setReason(e.target.value)}
+                            >
+                                <option value="">Select</option>
+                                <option value="student">Student</option>
+                                <option value="university">University Rep</option>
+                                <option value="partnership">Partnership</option>
+                            </select>
+                            {errors.reason && <p className="text-red-500 text-xs mt-1">{errors.reason}</p>}
+                        </div>
+
+                        {/* Submit Button */}
+                        <div className="flex justify-center">
+                            <button
+                                type="submit"
+                                disabled={loading}
+                                className={`${loading ? 'bg-gray-400' : 'bg-blue-600 hover:bg-blue-700'
+                                    } text-white font-semibold py-2 px-6 rounded-md text-sm transition`}
+                            >
+                                {loading ? 'Sending...' : 'Submit'}
+                            </button>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
-    );
+      );
+
+
 }
 
 export default RegisterForm;

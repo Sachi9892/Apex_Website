@@ -13,19 +13,19 @@ const Navbar = () => {
 
     return (
         <nav className="bg-white shadow-md fixed top-0 w-full z-50">
-            <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center h-full">
                 {/* Logo */}
-                <div className="flex items-center ">
-                    <Link to="/" className="w-full">
-                        <img
-                            src="src/assets/img/logo/apex.jpg"
-                            alt="Apex Consultant Logo"
-                            className="attachment-full size-full cursor-pointer"
-                            style={{ width: "300px", height: "50px" }}
-                        />
+                <div className="flex items-center h-full">
+                    <Link to="/" className="flex items-center gap-2 h-full"> 
+                        <div className="">
+                            <img
+                                src="src/assets/img/countries/others/edu-edu.jpg"
+                                alt="Apex Consultant Logo"
+                                className="h-18 w-full object-contain" 
+                            />
+                        </div>
                     </Link>
                 </div>
-
 
                 <DesktopNavbar />
 
@@ -39,7 +39,7 @@ const Navbar = () => {
 
             {/* Mobile Nav */}
             <MobileNavbar isOpen={isOpen} closeMenu={closeMenu} />
-            
+
         </nav>
     );
 };

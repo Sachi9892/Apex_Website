@@ -83,8 +83,8 @@ export const irelandInfo = [
 
 
 export const images = [
-    "src/assets/img/countries/usa/Page1.png",
-    "src/assets/img/countries/usa/Page2.png",
-    "src/assets/img/countries/usa/Page3.png",
-    "src/assets/img/countries/usa/Page4.png",
+    "src/assets/img/countries/ireland/page1.png",
+    "src/assets/img/countries/ireland/page2.png",
+    "src/assets/img/countries/ireland/page3.png",
+    "src/assets/img/countries/ireland/page2.png",
 ];

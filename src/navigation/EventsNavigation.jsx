@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route } from "react-router-dom";
-import Edufair from "../pages/events/Edufair";
+import Edufair from "../pages/events/Edufair"
 import OnSpotAssessment from "../pages/events/OnSpotAssessment";
 
 const eventNavi = [

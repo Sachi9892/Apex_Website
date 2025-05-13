@@ -1,6 +1,5 @@
 export const images = [
     "src/assets/img/apex/idfc.png",
-    "src/assets/img/apex/kuhoo.png",
     "src/assets/img/apex/sarswat.png",
     "src/assets/img/apex/axis.png",
     "src/assets/img/apex/icici.png",

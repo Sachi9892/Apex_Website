@@ -2,9 +2,13 @@ import React, { useState, useEffect } from 'react'
 import { cards, images } from '../data/others/HomeData'
 import ExploreCountries from '../components/ExploreCountries'
 import ExploreExams from "../components/ExploreExams"
+import ImageWithTextAndButton from '../components/ImageWithTextAndButton'
+import { useNavigate } from "react-router-dom";
 
 
 function Home() {
+
+    const navigate = useNavigate();
 
     const [current, setCurrent] = useState(0);
 
@@ -30,15 +34,26 @@ function Home() {
 
                 {/* Text Overlay */}
                 <div className="absolute right-0 top-1/2 transform -translate-y-1/2 px-6 md:px-12 w-full md:w-1/2">
-                    <h2 className="text-2xl md:text-4xl font-bold text-white mb-4">
-                        <strong>Welcome To Apex Consultant</strong>
+                    <h2 className="text-2xl md:text-4xl font-bold text-black mb-2">
+                        <strong>Welcome To Apex Educare</strong>
                     </h2>
-                    <p className="text-white mb-48 text-sm md:text-lg">
-                        <strong>Trust Apex Consultancy expert mentors to equip you with the
-                            knowledge and strategies you need to succeed.</strong>
+                    <p className="text-black text-sm md:text-lg">   
+                        <strong>
+                            Trust Apex Educare expert mentors to equip you with the
+                            knowledge and strategies you need to succeed.
+                        </strong>
                     </p>
+
+
+                    <button
+                        onClick={() => navigate("/contact-us")}
+                        className="bg-blue-600 hover:bg-blue-700 mb-16 text-white font-semibold py-3 px-6 rounded-lg transition duration-300"
+                    >
+                        Contact Us
+                    </button>
                 </div>
             </div>
+
 
             {/* Left content + right image */}
             <div className="w-full flex flex-col md:flex-row items-center py-10 md:py-16 px-4 md:px-16 bg-white">
@@ -56,7 +71,7 @@ function Home() {
 
                     {/* Button for medium and up */}
                     <div className="hidden md:block">
-                        <button className="mt-2 px-6 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-700 transition">
+                        <button onClick={() => navigate("/contact-us")} className="mt-2 px-6 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-700 transition">
                             Get Started
                         </button>
                     </div>
@@ -143,6 +158,14 @@ function Home() {
 
 
             </div>
+
+
+            <ImageWithTextAndButton
+                bgImage="src/assets/img/countries/ireland/ireland-bg.png"
+                heading="Contact Us !"
+                imgSrc="src/assets/img/models/boy.png"
+            />
+
 
 
         </div>

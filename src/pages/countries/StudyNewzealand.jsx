@@ -2,9 +2,12 @@ import React, { useState, useEffect } from 'react'
 import { nzInfo, nzTestAccordion, whyToStudyNz, images } from '../../data/country/NewzealandData';
 import ExploreCountries from '../../components/ExploreCountries';
 import ExploreExams from '../../components/ExploreExams';
+import ImageWithTextAndButton from '../../components/ImageWithTextAndButton';
+import { useNavigate } from "react-router-dom";
 
 function StudyNewzealand() {
 
+    const navigate = useNavigate();
 
     const [openIndex, setOpenIndex] = useState(null);
 
@@ -31,14 +34,14 @@ function StudyNewzealand() {
             <div className="relative w-full ">
                 <div className="w-full">
                     <img
-                        src="src\assets\img\countries\ireland\ireland.png"
+                        src="src/assets/img/countries/new-zealand/nz-banner.png"
                         alt="GMAT Banner"
                         className="block  max-h-[600px] w-full h-auto object-cover"
                     />
                 </div>
                 {/* Desktop Button */}
                 <div className="absolute bottom-4 left-4 md:block hidden">
-                    <button className="text-center ml-10 mb-32 bg-red-500 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full">
+                    <button onClick={() => navigate("/contact-us")} className="text-center ml-10 mb-32 bg-red-500 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full">
                         Click To Fly !
                     </button>
                 </div>
@@ -50,9 +53,10 @@ function StudyNewzealand() {
                 </div>
             </div>
 
+
             {/* Why to study in New Zealand  */}
             <div className='bg-pink-100 w-full'>
-                <h3 className="text-3xl font-semibold text-black-600 mt-10 text-center"><strong>Why To Study In New Zealand </strong></h3>
+                <h3 className="text-xl mt-4 sm:text-2xl md:text-3xl font-bold text-center mt-2"><strong>Why To Study In New Zealand</strong></h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-4 md:px-16 w-full mb-10 mt-8">
                     {whyToStudyNz.map((card, index) => (
                         <div
@@ -70,9 +74,7 @@ function StudyNewzealand() {
 
             {/* Tests Required to Study in New Zealand */}
             <div className="w-full p-6">
-                <h2 className="text-3xl font-bold text-center text-black mb-6">
-                    Tests Required to Study in New Zealand
-                </h2>
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-2"><strong>Test Required To Study In New Zealand</strong></h3>
 
                 <div className="flex flex-col md:flex-row items-start w-full">
                     {/* Accordion Section */}
@@ -109,7 +111,7 @@ function StudyNewzealand() {
 
                         {/* Desktop Button Below Accordions */}
                         <div className="hidden md:flex mt-6">
-                            <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full">
+                            <button onClick={() => navigate("/contact-us")} className="bg-red-500 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full">
                                 Start To Prep
                             </button>
                         </div>
@@ -118,7 +120,7 @@ function StudyNewzealand() {
                     {/* Image Section */}
                     <div className="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center">
                         <img
-                            src="src/assets/img/countries/uk/study-uk.png"
+                            src="src/assets/img/countries/new-zealand/nz-apex.png"
                             alt="model"
                             className="min-w-full max-h-[500px] ml-4 md:max-w-sm w-full h-auto object-contain"
                         />
@@ -127,7 +129,7 @@ function StudyNewzealand() {
 
                 {/* Mobile Button */}
                 <div className="mt-4 md:hidden flex justify-center">
-                    <button className="bg-red-500  hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full">
+                    <button onClick={() => navigate("/contact-us")} className="bg-red-500  hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full">
                         Start To Prep
                     </button>
                 </div>
@@ -135,9 +137,9 @@ function StudyNewzealand() {
 
 
             {/* Courses in New Zealand   */}
-            <div className='w-full bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('src/assets/img/countries/usa/us-bg.png')" }}>
+            <div className='w-full bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('src/assets/img/countries/new-zealand/nz-bg.png')" }}>
                 <div className="px-4 md:px-8 w-full overflow-x-auto mb-10">
-                    <h3 className="text-3xl font-bold text-white mb-6 mt-10 text-center">Popular Courses to Study in New Zealand</h3>
+                    <h3 className="text-xl mt-4 sm:text-2xl md:text-3xl font-bold text-center mt-2"><strong>Popular Courses In New Zealand</strong></h3>
                     <table className="min-w-[250px] md:min-w-full bg-white border border-gray-500 text-sm md:text-base mt-8">
                         <thead>
                             <tr className="bg-gray-100 text-gray-600">
@@ -218,9 +220,7 @@ function StudyNewzealand() {
             {/* All you need to know about Study in New Zealand */}
             <div className="w-full px-6 md:px-16 py-10 bg-gray-50">
                 {/* Heading */}
-                <h3 className="text-3xl font-bold text-black mb-6 text-center">
-                    All you need to know about Study in New Zealand
-                </h3>
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-4"><strong>All you need to know about Study in New Zealand</strong></h3>
 
                 {/* Navbar with background */}
                 <div className="w-full bg-white p-4 rounded-xl shadow-sm mb-8 flex justify-center flex-wrap gap-4 md:gap-6">
@@ -251,7 +251,7 @@ function StudyNewzealand() {
                         </p>
 
                         <div className="mt-6">
-                            <button className="bg-red-700 hover:bg-white hover:text-red-700 text-white font-bold py-3 px-6 rounded-full border border-red-700 transition duration-300">
+                            <button onClick={() => navigate("/contact-us")} className="bg-red-700 hover:bg-white hover:text-red-700 text-white font-bold py-3 px-6 rounded-full border border-red-700 transition duration-300">
                                 Start Your Application
                             </button>
                         </div>
@@ -273,7 +273,7 @@ function StudyNewzealand() {
             {/* New Zealand universities list */}
             <div
                 className="w-full py-10 bg-cover bg-center"
-                style={{ backgroundImage: "url('src/assets/img/countries/usa/us-bg.png')" }}
+                style={{ backgroundImage: "url('src/assets/img/countries/new-zealand/nz-bg.png')" }}
             >
                 {/* USA Student Life Section */}
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6 text-white">
@@ -292,24 +292,11 @@ function StudyNewzealand() {
 
             </div>
 
-            {/* image for the apply now button */}
-            <div className="flex flex-col md:flex-row items-center w-full bg-gradient-to-r from-indigo-100 via-red-300 to-pink-200">
-                <div className="w-full md:w-1/2">
-                    <img
-                        src="src/assets/img/models/boy.png"
-                        alt="SAT Banner"
-                        className="block max-w-[300px] w-full h-auto object-contain mx-auto"
-                    />
-                </div>
-                <div className="w-full md:w-1/2 p-6 flex flex-col items-center md:items-start">
-                    <h2 className="text-xl md:text-2xl font-bold text-black mt-4 md:mt-0 mb-2 md:mb-4 text-center md:text-left">
-                        Start Your New Zealand journey now!
-                    </h2>
-                    <button className="mt-2 md:mt-0 bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
-                        Contact Us!
-                    </button>
-                </div>
-            </div>
+            <ImageWithTextAndButton
+                bgImage="src/assets/img/countries/new-zealand/nz-bg.png"
+                heading="Welcome to New Zealand"
+                imgSrc="src/assets/img/models/boy.png"
+            />
 
             <ExploreCountries />
 

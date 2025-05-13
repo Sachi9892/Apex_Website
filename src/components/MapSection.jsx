@@ -1,42 +1,67 @@
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import 'leaflet/dist/leaflet.css';
-import L from 'leaflet';
-import React from 'react';
-
-// Fix default icon issue in leaflet
-delete L.Icon.Default.prototype._getIconUrl;
-L.Icon.Default.mergeOptions({
-    iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-2x.png',
-    iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-});
+import React, { useEffect, useRef } from 'react';
+import 'ol/ol.css';
+import Map from 'ol/Map';
+import View from 'ol/View';
+import { fromLonLat } from 'ol/proj';
+import TileLayer from 'ol/layer/Tile';
+import OSM from 'ol/source/OSM';
+import Feature from 'ol/Feature';
+import Point from 'ol/geom/Point';
+import VectorSource from 'ol/source/Vector';
+import VectorLayer from 'ol/layer/Vector';
+import { Icon, Style } from 'ol/style';
 
 const MapSection = () => {
-    const position = [19.17283333, 72.83333]; // [latitude, longitude]
+    const mapRef = useRef();
+
+    useEffect(() => {
+        const coordinates = fromLonLat([72.84616, 19.10026]);
+
+        const marker = new Feature({
+            geometry: new Point(coordinates),
+        });
+
+        marker.setStyle(
+            new Style({
+                image: new Icon({
+                    src: 'https://cdn-icons-png.flaticon.com/512/684/684908.png', // or your own marker icon
+                    anchor: [0.5, 1],
+                    scale: 0.05,
+                }),
+            })
+        );
+
+        const vectorLayer = new VectorLayer({
+            source: new VectorSource({
+                features: [marker],
+            }),
+        });
+
+        new Map({
+            target: mapRef.current,
+            layers: [
+                new TileLayer({
+                    source: new OSM(),
+                }),
+                vectorLayer,
+            ],
+            view: new View({
+                center: coordinates,
+                zoom: 17,
+            }),
+        });
+    }, []);
 
     return (
         <section className="px-4 md:px-10 mt-16 mb-6">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800 text-center mb-6">
                 Locate Us 📍
             </h2>
-            <div className="w-full h-[300px] md:h-[450px] rounded-xl overflow-hidden shadow-xl">
-                <MapContainer
-                    center={position}
-                    zoom={13}
-                    scrollWheelZoom={false}
-                    style={{ height: '100%', width: '100%' }}
-                >
-                    <TileLayer
-                        attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>'
-                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                    />
-                    <Marker position={position}>
-                        <Popup>
-                            Apex Consultant Office <br /> Mumbai
-                        </Popup>
-                    </Marker>
-                </MapContainer>
-            </div>
+            <div
+                ref={mapRef}
+                style={{ height: '350px', width: '100%' }}
+                className="rounded-xl overflow-hidden shadow-md"
+            />
         </section>
     );
 };

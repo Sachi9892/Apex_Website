@@ -4,8 +4,10 @@ import { ieltsFactsData, crackIelts, ieltsTrainingData } from '../../data/exams/
 
 import ExploreExams from '../../components/ExploreExams'
 import ExploreCountries from '../../components/ExploreCountries'
+import { useNavigate } from "react-router-dom";
 
 function IELTS() {
+  const navigate = useNavigate();
   return (
 
     <div className="w-full flex flex-col items-center space-y-8">
@@ -24,11 +26,11 @@ function IELTS() {
             Best IELTS Coaching in Mumbai
           </h2>
           <p className="text-gray-700 mb-4 md:mb-6 text-center md:text-left">
-            Trust Apex Consultancy expert IELTS mentors to equip you with the
+            Trust Apex Educare expert IELTS mentors to equip you with the
             knowledge and strategies you need to succeed. Thousands of IELTS aspirants have got their desired score with us.
           </p>
           <div className="items-center justify-center">
-            <button className="text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
+            <button onClick={() => navigate("/contact-us")} className="text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
               Book Free Demo Class!
             </button>
           </div>
@@ -116,7 +118,7 @@ function IELTS() {
 
       {/* Crack GMAT Section (Looks responsive with grid) */}
       <div className='bg-red-500 w-full'>
-        <h3 className="text-lg sm:text-xl md:text-2xl font-medium text-white text-center mt-6 md:mt-6">Crack IELTS with <strong>7+</strong> Bands in 30 Days With Apex Consultancy</h3>
+        <h3 className="text-lg sm:text-xl md:text-2xl font-medium text-white text-center mt-6 md:mt-6">Crack IELTS with <strong>7+</strong> Bands in 30 Days With Apex Educare</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 md:px-16 w-full mb-10 mt-8">
           {crackIelts.map((card, index) => (
             <div
@@ -168,7 +170,7 @@ function IELTS() {
                     ))}
                   </ul>
                   <div className="mt-6">
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full w-full">
+                    <button onClick={() => navigate("/contact-us")} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full w-full">
                       Learn More
                     </button>
                   </div>
@@ -180,24 +182,11 @@ function IELTS() {
       </div>
 
 
-      {/* image for the apply now button */}
-      <div className="flex flex-col md:flex-row items-center w-full bg-gradient-to-r from-indigo-100 via-red-300 to-pink-200">
-        <div className="w-full md:w-1/2">
-          <img
-            src="src/assets/img/models/boy.png"
-            alt="GMAT Banner"
-            className="block max-w-[300px] w-full h-auto object-contain mx-auto"
-          />
-        </div>
-        <div className="w-full md:w-1/2 p-6 flex flex-col items-center md:items-start">
-          <h2 className="text-xl md:text-2xl font-bold text-black mt-4 md:mt-0 mb-2 md:mb-4 text-center md:text-left">
-            Start Your IELTS journey now!
-          </h2>
-          <button className="mt-2 md:mt-0 bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
-            Contact Us!
-          </button>
-        </div>
-      </div>
+      <ImageWithTextAndButton
+        bgImage="src/assets/img/countries/australia/aus-bg.png"
+        heading="Prep For Duolingo"
+        imgSrc="src/assets/img/models/boy.png"
+      />
 
       <ExploreExams />
 

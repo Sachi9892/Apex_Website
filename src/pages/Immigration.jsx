@@ -17,10 +17,10 @@ function Immigration() {
         {/* Text Overlay */}
         <div className="absolute right-0 top-1/2 transform -translate-y-1/2 px-6 md:px-12 w-full md:w-1/2">
           <h2 className="text-2xl md:text-4xl font-bold text-white mb-4">
-            Best GMAT Coaching in Mumbai
+            Experience Immigration With Apex Educare
           </h2>
           <p className="text-white text-sm md:text-lg">
-            Trust Apex Consultancy expert GMAT mentors to equip you with the
+            Trust Apex Educare expert GMAT mentors to equip you with the
             knowledge and strategies you need to succeed. Thousands of GMAT aspirants have got their desired score with us.
           </p>
         </div>

@@ -48,7 +48,7 @@ const DesktopNavbar = () => {
                                 onClick={() => setShowForeign(false)}
                                 className="flex items-center gap-3 px-5 py-3 hover:bg-gray-300"
                             >
-                                {flag && <img src={flag} alt={name} className="w-12 h-12 rounded" />}
+                                {flag && <img src={flag} alt={name} className="w-12 h-12 border" />}
                                 <span className="text-base font-medium">{name}</span>
                             </Link>
                         ))}

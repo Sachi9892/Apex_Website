@@ -93,9 +93,7 @@ export const nzInfo = [
 
 
 export const images = [
-    "src/assets/img/countries/canada/Page1.png",
-    "src/assets/img/countries/canada/Page2.png",
-    "src/assets/img/countries/canada/Page3.png",
-    "src/assets/img/countries/canada/Page4.png",
-    "src/assets/img/countries/canada/Page5.png",
+    "src/assets/img/countries/new-zealand/page1.png",
+    "src/assets/img/countries/new-zealand/page2.png",
+    "src/assets/img/countries/new-zealand/page3.png",
 ];

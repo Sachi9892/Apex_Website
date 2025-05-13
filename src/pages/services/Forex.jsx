@@ -1,4 +1,5 @@
 import React from 'react'
+import ImageWithTextAndButton from '../../components/ImageWithTextAndButton'
 
 function Forex() {
   return (
@@ -16,10 +17,10 @@ function Forex() {
         {/* Text Overlay */}
         <div className="absolute right-0 top-1/2 transform -translate-y-1/2 px-6 md:px-12 w-full md:w-1/2">
           <h2 className="text-2xl md:text-4xl font-bold text-black mb-4">
-            <strong>Welcome To Apex Consultant</strong>
+            <strong>Welcome To Apex Educare</strong>
           </h2>
           <p className="text-black mb-28 text-sm md:text-lg">
-            <strong>Trust Apex Consultancy expert mentors to equip you with the
+            <strong>Trust Apex Educare expert mentors to equip you with the
               knowledge and strategies you need to succeed.</strong>
           </p>
         </div>
@@ -120,24 +121,12 @@ function Forex() {
       </div>
 
 
-      {/* image for the apply now button */}
-      <div className="flex flex-col md:flex-row items-center w-full bg-gray-200">
-        <div className="w-full md:w-1/2">
-          <img
-            src="src/assets/img/models/boy.png"
-            alt="GMAT Banner"
-            className="block max-w-[300px] w-full h-auto object-contain mx-auto"
-          />
-        </div>
-        <div className="w-full md:w-1/2 p-6 flex flex-col items-center md:items-start">
-          <h2 className="text-xl md:text-2xl font-bold text-black mt-4 md:mt-0 mb-2 md:mb-4 text-center md:text-left">
-            For The Forex Help
-          </h2>
-          <button className="mt-2 md:mt-0 bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
-            Contact Us!
-          </button>
-        </div>
-      </div>
+      <ImageWithTextAndButton
+        bgImage="src\assets\img\apex\dark.png"
+        heading="Welcome to Edu Fair"
+        imgSrc="src/assets/img/models/boy.png"
+      />
+
 
 
 

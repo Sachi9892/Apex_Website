@@ -93,9 +93,9 @@ export const germanyInfo = [
 
 
 export const images = [
-    "src/assets/img/countries/canada/Page1.png",
-    "src/assets/img/countries/canada/Page2.png",
-    "src/assets/img/countries/canada/Page3.png",
-    "src/assets/img/countries/canada/Page4.png",
-    "src/assets/img/countries/canada/Page5.png",
+    "src/assets/img/countries/germany/Page1.png",
+    "src/assets/img/countries/germany/Page2.png",
+    "src/assets/img/countries/germany/Page1.png",
+    "src/assets/img/countries/germany/Page3.png",
+    "src/assets/img/countries/germany/Page2.png",
 ];
