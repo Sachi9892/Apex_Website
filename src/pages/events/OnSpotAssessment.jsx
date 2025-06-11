@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useNavigate } from "react-router-dom"; 
 
 function OnSpotAssessment() {
@@ -114,16 +113,3 @@ function OnSpotAssessment() {
 }
 
 export default OnSpotAssessment;
-=======
-import React from 'react'
-
-function OnSpotAssessment() {
-  return (
-    <div>
-      <p>On Spot </p>
-    </div>
-  )
-}
-
-export default OnSpotAssessment
->>>>>>> 0e464d2cbbb82b2cb445f8d55881abdac576f83f

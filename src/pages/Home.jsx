@@ -138,11 +138,7 @@ function Home() {
 
             <ExploreExams />
 
-<<<<<<< HEAD
             {/* list of universities */}
-=======
-            {/* university we have Partnership */}
->>>>>>> 0e464d2cbbb82b2cb445f8d55881abdac576f83f
             <div
                 className="w-full py-10 bg-cover bg-center"
                 style={{ backgroundImage: "url('src/assets/img/countries/usa/us-bg.png')" }}
