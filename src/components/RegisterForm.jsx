@@ -89,7 +89,7 @@ function RegisterForm() {
                     {/* Embedded Image */}
                     <div className="w-full h-40 md:h-48 overflow-hidden">
                         <img
-                            src="src/assets/img/apex/apex-form-logo.png" // Replace with your actual path
+                            src="src/assets/img/countries/others/edu-edu.jpg" // Replace with your actual path
                             alt="Contact Us"
                             className="w-full h-full object-cover"
                         />

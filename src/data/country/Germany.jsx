@@ -1,19 +1,19 @@
 export const whyToStudyGermany = [
     {
-        title: "world class education",
-        description: "Canada is known for its high-quality education system, offering a diverse range of programs and courses. Renowned universities and colleges ensure students receive a top-notch education that’s recognized globally. It is the hub for groundbreaking research and innovation."
+        title: "International Exposure",
+        description: "Each year, more than 25 000 foreign students come to Germany to continue their studies and research, due to Germany’s comprehensible international curricula and outstanding research possibilities. In addition, studying in Germany gives the chance to be the member of the international, highly educated society."
     },
     {
-        title: "Quality of Life and Cultural Exposure",
-        description: "Canada is consistently ranked as one of the safest countries in the world. Its friendly and inclusive atmosphere makes international students feel welcome and at home. It boasts a high quality of life, offering stunning natural landscapes, vibrant cities, and a strong emphasis on work-life balance."
+        title: "Wide Choice Of Programs",
+        description: "Currently, there are over 300 degree programs taught in English in various Universities in Germany. These programs relate to a number of fields, with a focus on Undergraduate or Graduate degrees in Engineering, Nature Sciences, Computer Science, Business, and Economics that may be recognized at the international level and, in some cases, may lead to a PhD."
     },
     {
-        title: "Post-Graduation Work Opportunities",
-        description: "Canada offers excellent post-study work opportunities for international students. The Post-Graduation Work Permit (PGWP) allows students to work for up to three years after completing their studies, gaining valuable work experience."
+        title: "Practical Experience",
+        description: "In Germany, student interaction with the industry is frequent while pursuing education especially for the international students. Mentioned companies such as SAP, Siemens, DPWN, Daimler-Chrysler, BMW, Bosch can be useful in the process of improving your career. A number of colleges and universities offer students an opportunity to intern or do some research in the field."
     },
     {
-        title: "Pathway to Permanent Residency",
-        description: "Studying in Canada can be a pathway to obtaining permanent residency. Many provinces offer programs that facilitate the transition from student to permanent resident, allowing students to build their future in Canada."
+        title: "Economic Power",
+        description: "Germany indeed is a leading economic powerhouse in the global economy and India’s key trading partner in The European Union especially in machinery, automobiles, chemicals, electrical equipment and IT. Their economic interaction is becoming more active, Germany is increasingly investing in India and the number of Indian companies entering Germany is also increasing. In many areas, Germany’s products like; the machine tools, motor vehicle, and electrical engineering products are widely recognized as the best in the world."
     },
 ];
 
@@ -36,55 +36,63 @@ export const germanyTestAccordion = [
         content: "IELTS (International English Language Testing System): Similar to TOEFL, IELTS is another English language proficiency test accepted by American institutions.IELTS minimum requirements in the US range from 6 to 7+ bands out of 9.0.",
         icon: "src/assets/img/exams/ielts.png",
     },
-    {
-        content: "PTE is also accepted by many Canadian institutions. An overall score of 50 to 60 is commonly expected for undergraduate admissions, while graduate programs might require scores around 60 to 70.",
-        icon: "src/assets/img/exams/pte.png",
-    },
 
 ];
 
 
 export const germanyInfo = [
     {
-        title: 'Canada study intake',
-        content: `✔️ Canada offers two main intakes for international students – Fall and Winter. The Fall intake typically begins in September and is the most popular intake
+        title: 'Germany study intake',
+        content: `✔️ 1. Winter Intake (Primary)
+Starts: September or October
+Application Deadline: May–July (varies by university)
+Why Popular: Most courses, especially at public universities, are offered in this intake.
 
-        ✔️ The Winter intake starts in January and is ideal for students who missed the Fall intake or prefer a slightly later start.
-
-        ✔️ Some institutions may also offer a smaller Summer intake that starts in May or June. It’s essential to check specific program availability and application deadlines for each intake.`,
+        ✔️ 2. Summer Intake (Secondary)
+Starts: March or April
+Application Deadline: November–January
+Course Availability: Fewer programs compared to the winter intake, but still offers good options.`,
 
         image: "src/assets/img/models/model1.png",
     },
     {
-        title: 'Canada study cost',
-        content: `✔️ The cost of studying in Canada can vary depending on factors such as the program, institution, and location
+        title: 'Germany study cost',
+        content: `✔️ Bachelor’s Programs: Tuition fees range from €8,000 to €10,000 per year at private universities; most public universities charge minimal or no tuition.
 
-        ✔️ On average, tuition fees for undergraduate programs can range from CAD 15,000 to CAD 35,000 per year, while postgraduate programs might cost between CAD 20,000 and CAD 40,000 per year.
+        ✔️ Master’s Programs: Typically cost €10,000 to €12,000 per year at private institutions; public universities often offer lower fees or free tuition for consecutive master's.
 
-        ✔️ In addition to tuition, students should budget for accommodation, living expenses, insurance, and other miscellaneous costs. It’s advisable to research and plan your budget accordingly`,
+        ✔️ Living Expenses: Expect to spend around €850–€1,200 per month on rent, food, transport, and insurance.
+Other Costs: Include semester contributions (€250–€350/semester) and health insurance (~€100/month).`,
         image: "src/assets/img/models/model5.png",
     },
     {
-        title: 'Study in Canada Requirements',
-        content: `✔️ The requirements to study in Canada depend on the level of education and the specific program you’re applying for.
+        title: 'Study in Germany Requirements',
+        content: `✔️ Passport & Photos: Valid passport, one copy of the data page, and three biometric passport photos.
+Admission & Purpose: Cover letter stating study purpose and duration, and official admission letter from a German university.
 
-        ✔️ You’ll need to provide academic transcripts, language proficiency test scores (such as IELTS, TOEFL, or PTE), a valid passport, and proof of financial capacity to cover tuition and living expenses.
+        ✔️ Proof of Funds: Financial evidence via blocked account, scholarship confirmation, or a sponsorship letter (Verpflichtungserklärung).
 
-        ✔️ Some programs or institutions might have additional prerequisites like portfolios for creative courses or entrance exams for specialized programs.`,
+        ✔️ The Goethe-Institut exam is an internationally recognized German language proficiency test aligned with the CEFR levels (A1 to C2). It assesses listening, reading, writing, and speaking skills and is commonly required for studying, working, or migrating to German-speaking countries.
+
+        ✔️ Language & Academics: Proof of English/German proficiency (if required) and all relevant academic certificates.
+Fee Proof: Receipt or confirmation of tuition fee payment, if applicable.
+`,
         image: "src/assets/img/models/model2.png",
     },
     {
-        title: 'Canada Student Visa Process',
-        content: `✔️ Student Direct Stream (SDS). Previously it was SPP (Student Partnership Program), now it has been recently updated and now it is SDS (Student Direct Stream) it is an administrative framework designed and implemented in partnership between the Canadian visa offices in India and the Association of Canadian Community Colleges (ACCC). 
+        title: 'Germany Student Visa Process',
+        content: `✔️ Apply early – Begin your application at least 6 months before your intended start date.
+APS Certification – Apply for APS (Academic Evaluation Centre) clearance.
 
-        ✔️ SDS is created in order to speed up visa processing and to reduce the number of documents needed to assess visa/Study Permit applications for a certain category of students admitted to select Colleges / Universities. All Public Colleges & Universities will fall under this Category.
+        ✔️ Admission Process – Offer letter usually takes 2–3 weeks; pay 1 year’s tuition after receiving it.
+Financial & Insurance Requirements – Maintain a Block Account for living expenses and purchase health/travel insurance.
 
         ✔️ Student Direct Stream process is open to Indian nationals only.
 
         ✔️ We have ICICI, Scotia Bank, HSBC & other Canadian financial institutions participating in this program. Once the student Student’s GIC has been opened, you may transfer the funds to your account in Canada by using any bank in India in which you hold your account.
 
-        ✔️ Guaranteed Investment Certificate (GIC)
-            According to Citizenship and Immigration Canada guidelines, you will require $10,000 CAD per year, not including tuition fees, to cover your living expenses. This requirement is fulfilled through the purchase of a participating GIC, and evidence that you have paid your tuition.`,
+        ✔️ Visa Application – Apply online, then submit documents and biometrics at VFS as per your appointment.
+`,
 
         image: "src/assets/img/models/model3.png",
     },

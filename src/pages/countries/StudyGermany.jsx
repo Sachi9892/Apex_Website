@@ -8,7 +8,7 @@ import ImageWithTextAndButton from '../../components/ImageWithTextAndButton';
 import { useNavigate } from "react-router-dom"
 
 function StudyGermany() {
-    
+
     const navigate = useNavigate();
     const [openIndex, setOpenIndex] = useState(null);
 
@@ -121,7 +121,7 @@ function StudyGermany() {
                     {/* Image Section */}
                     <div className="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center">
                         <img
-                            src="src\assets\img\apex\apex-us.png"
+                            src="src/assets/img/countries/germany/germany-apex.png"
                             alt="model"
                             className="min-w-full max-h-[500px] ml-4 md:max-w-sm w-full h-auto object-contain"
                         />
@@ -136,6 +136,13 @@ function StudyGermany() {
                 </div>
             </div>
 
+
+            {/* Engineering
+            Business Administration
+            Renewable Energy
+            Automotive engineering
+            Data Science
+            Cyber Security  */}
 
             {/* Courses in Germany  */}
             <div className='w-full bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('src/assets/img/countries/germany/germany-bg.png')" }}>
@@ -152,58 +159,34 @@ function StudyGermany() {
                         </thead>
                         <tbody>
                             <tr className="hover:bg-red-200">
-                                <td className="py-3 px-4 border-b font-medium">Marine Biology</td>
-                                <td className="py-3 px-4 border-b">3 years</td>
-                                <td className="py-3 px-4 border-b">	25,000 - 40,000</td>
+                                <td className="py-3 px-4 border-b font-medium">Engineering</td>
+                                <td className="py-3 px-4 border-b">2 years</td>
+                                <td className="py-3 px-4 border-b">EUR 15,000 - 20,000</td>
                                 <td className="py-3 px-4 border-b">✔️</td>
                             </tr>
 
                             <tr className="hover:bg-red-200">
-                                <td className="py-3 px-4 border-b font-medium">Business Management</td>
-                                <td className="py-3 px-4 border-b">3 Years</td>
-                                <td className="py-3 px-4 border-b">25,000 - 40,000</td>
+                                <td className="py-3 px-4 border-b font-medium">Business Administration</td>
+                                <td className="py-3 px-4 border-b">2 years</td>
+                                <td className="py-3 px-4 border-b">EUR 20,000 - 25,000</td>
                                 <td className="py-3 px-4 border-b">✔️</td>
                             </tr>
                             <tr className="hover:bg-red-200">
-                                <td className="py-3 px-4 border-b font-medium">Banking and Finance</td>
-                                <td className="py-3 px-4 border-b">3 Years</td>
-                                <td className="py-3 px-4 border-b">35,000 - 50,000</td>
+                                <td className="py-3 px-4 border-b font-medium">Renewable Energy</td>
+                                <td className="py-3 px-4 border-b">2 years</td>
+                                <td className="py-3 px-4 border-b">EUR 15,000 - 20,000</td>
                                 <td className="py-3 px-4 border-b">✔️</td>
                             </tr>
                             <tr className="hover:bg-red-200">
-                                <td className="py-3 px-4 border-b font-medium">IT and Computing</td>
-                                <td className="py-3 px-4 border-b">3 Years</td>
-                                <td className="py-3 px-4 border-b">30,000 - 50000</td>
-                                <td className="py-3 px-4 border-b ml-4">✔️</td>
-                            </tr>
-                            <tr className="hover:bg-red-200">
-                                <td className="py-3 px-4 border-b font-medium">Engineering</td>
-                                <td className="py-3 px-4 border-b">4 Years</td>
-                                <td className="py-3 px-4 border-b">	35,000 - 50,000</td>
+                                <td className="py-3 px-4 border-b font-medium">Data Science</td>
+                                <td className="py-3 px-4 border-b">2 years</td>
+                                <td className="py-3 px-4 border-b">EUR 15,000 - 20,000</td>
                                 <td className="py-3 px-4 border-b">✔️</td>
                             </tr>
                             <tr className="hover:bg-red-200">
-                                <td className="py-3 px-4 border-b font-medium">Tourism and Hospitality</td>
-                                <td className="py-3 px-4 border-b">3 Years</td>
-                                <td className="py-3 px-4 border-b">25,000 - 40,000</td>
-                                <td className="py-3 px-4 border-b">✔️</td>
-                            </tr>
-                            <tr className="hover:bg-red-200">
-                                <td className="py-3 px-4 border-b font-medium">Architecture</td>
-                                <td className="py-3 px-4 border-b">3 Years</td>
-                                <td className="py-3 px-4 border-b">30,000 - 50,000</td>
-                                <td className="py-3 px-4 border-b">✔️</td>
-                            </tr>
-                            <tr className="hover:bg-red-200">
-                                <td className="py-3 px-4 border-b font-medium">Medicine</td>
-                                <td className="py-3 px-4 border-b">5 Years</td>
-                                <td className="py-3 px-4 border-b">	50,000 - 70,000</td>
-                                <td className="py-3 px-4 border-b">✔️</td>
-                            </tr>
-                            <tr className="hover:bg-red-200">
-                                <td className="py-3 px-4 border-b font-medium">Law</td>
-                                <td className="py-3 px-4 border-b">4 Years</td>
-                                <td className="py-3 px-4 border-b">	40,000 - 60,000</td>
+                                <td className="py-3 px-4 border-b font-medium">Cyber Security</td>
+                                <td className="py-3 px-4 border-b">2 years</td>
+                                <td className="py-3 px-4 border-b">EUR 15,000 - 20,000</td>
                                 <td className="py-3 px-4 border-b">✔️</td>
                             </tr>
                         </tbody>
@@ -268,7 +251,7 @@ function StudyGermany() {
             {/* Germany universities list */}
             <div
                 className="w-full py-10 bg-cover bg-center"
-                style={{ backgroundImage: "url('src/assets/img/countries/usa/us-bg.png')" }}
+                style={{ backgroundImage: "url('src/assets/img/countries/germany/germany-bg.png')" }}
             >
                 {/* USA Student Life Section */}
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6 text-white">
@@ -289,7 +272,7 @@ function StudyGermany() {
 
 
             <ImageWithTextAndButton
-                bgImage="src/assets/img/countries/france/france-bg.png"
+                bgImage="src/assets/img/countries/germany/germany-bg.png"
                 heading="Welcome to Germany"
                 imgSrc="src/assets/img/models/boy.png"
             />

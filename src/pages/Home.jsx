@@ -64,7 +64,7 @@ function Home() {
                         Championing Student Success
                     </h2>
                     <p className="text-gray-700 text-sm md:text-base">
-                        Apex Consultant stands as the ultimate destination for all foreign education and immigration services for more than 23 years.
+                        Apex Educare stands as the ultimate destination for all foreign education and immigration services for more than 25 years.
                         Our counselors serve as the bedrock of our association, meticulously guiding each individual with utmost care.
                         With a keen focus on identifying each student’s unique strengths and limitations, our experienced counselors ensure a personalized approach to every journey.
                     </p>
@@ -101,7 +101,7 @@ function Home() {
                     <strong>One-Stop Destination for All Your Study Abroad Needs</strong>
                 </h2>
                 <p className="text-sm sm:text-sm md:text-lg font-medium text-black text-center mt-2">
-                    Apex streamlines your entire study abroad journey for success.
+                    Apex Educare streamlines your entire study abroad journey for success.
                 </p>
 
                 <div className="grid mt-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

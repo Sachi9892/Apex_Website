@@ -23,7 +23,7 @@ function StudyIreland() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % images.length);
-    }, 1000); // 1 second
+    }, 3000); // 1 second
 
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);

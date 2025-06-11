@@ -6,7 +6,7 @@ export const duoLingoData = [
     },
     {
         title: "Accepted By",
-        description: "4,000+ institutions worldwide including the US, UK, and Canada"
+        description: "4,000+ institutions worldwide including the US, NZ, Ireland and Canada"
     },
     {
         title: "Examination Mode",
@@ -61,8 +61,8 @@ export const crackDuolingo = [
 export const duolingoProgram = [
     {
         title: "DUOLINGO Offline",
-        time: "7:00 PM to 8:00 PM",
-        batchStart: "5th of Every Month",
+        time: "10 AM to 6:30 PM",
+        batchStart: "Personalized Coaching",
         duration: "30 days",
         features: [
             "Certified and experienced faculty",
@@ -84,8 +84,8 @@ export const duolingoProgram = [
     },
     {
         title: "DUOLINGO Online",
-        time: "7:00 PM to 8:00 PM",
-        batchStart: "5th of Every Month",
+        time: "10 AM to 6:30 PM",
+        batchStart: "Personalized Coaching",
         duration: "30 days",
         features: [
             "Certified and experienced faculty",

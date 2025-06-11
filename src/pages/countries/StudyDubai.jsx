@@ -24,7 +24,7 @@ function StudyDubai() {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrent((prev) => (prev + 1) % images.length);
-        }, 1000); // 1 second
+        }, 3000); // 1 second
 
         return () => clearInterval(interval); // Cleanup on unmount
     }, []);
@@ -38,7 +38,7 @@ function StudyDubai() {
             <div className="relative w-full ">
                 <div className="w-full">
                     <img
-                        src="src\assets\img\countries\singapore\singapore.png"
+                        src="src\assets\img\countries\dubai\dubai.png"
                         alt="GMAT Banner"
                         className="block  max-h-[600px] w-full h-auto object-cover"
                     />
@@ -125,7 +125,7 @@ function StudyDubai() {
                     {/* Image Section */}
                     <div className="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center">
                         <img
-                            src="src\assets\img\apex\apex-us.png"
+                            src="src\assets\img\countries\dubai\dubai-apex.png"
                             alt="model"
                             className="min-w-full max-h-[500px] ml-4 md:max-w-sm w-full h-auto object-contain"
                         />
@@ -142,7 +142,7 @@ function StudyDubai() {
 
 
             {/* Courses in Dubai  */}
-            <div className='w-full bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('src/assets/img/countries/usa/us-bg.png')" }}>
+            <div className='w-full bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('src/assets/img/countries/dubai/dubai-bg.png')" }}>
                 <div className="px-4 md:px-8 w-full overflow-x-auto mb-10">
                     <h3 className="text-xl text-black mt-4 mb-6 sm:text-2xl md:text-3xl mt-4 font-bold text-white text-center"><strong>Popular Courses to Study in Dubai</strong></h3>
                     <table className="min-w-[250px] md:min-w-full bg-white border border-gray-500 text-sm md:text-base mt-8">
@@ -268,7 +268,7 @@ function StudyDubai() {
             {/* Dubai universities list */}
             <div
                 className="w-full py-10 bg-cover bg-center"
-                style={{ backgroundImage: "url('src/assets/img/countries/usa/us-bg.png')" }}
+                style={{ backgroundImage: "url('src/assets/img/countries/dubai/dubai-bg.png')" }}
             >
                 {/* USA Student Life Section */}
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6 text-white">
@@ -289,7 +289,7 @@ function StudyDubai() {
 
 
             <ImageWithTextAndButton
-                bgImage="src/assets/img/countries/france/france-bg.png"
+                bgImage="'src/assets/img/countries/dubai/dubai-bg.png'"
                 heading="Fly to Dubai"
                 imgSrc="src/assets/img/models/boy.png"
             />

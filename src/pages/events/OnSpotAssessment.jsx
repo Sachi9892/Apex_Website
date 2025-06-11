@@ -7,7 +7,7 @@ function OnSpotAssessment() {
     title: "Oregon State University Spot Assessment",
     date: "10th Mar 2025",
     time: "12:30 PM to 2 PM",
-    location: "Valmiki Group Corp Office, Secunderabad.",
+    location: "Apex Consultant , Vile Parle (E)",
     type: "In Person",
   };
 
@@ -15,7 +15,7 @@ function OnSpotAssessment() {
     title: "Oregon State University Spot Assessment",
     date: "10th Mar 2025",
     time: "12:30 PM to 2 PM",
-    location: "Valmiki Group Corp Office, Secunderabad.",
+    location: "Apex Consultant , Vile Parle (E)",
     type: "In Person",
   };
 

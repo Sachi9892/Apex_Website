@@ -15,7 +15,7 @@ function PTE() {
       <div className="flex flex-col md:flex-row items-center w-full">
         <div className="w-full md:w-1/2">
           <img
-            src="src\assets\img\exams\pte.png"
+            src="src\assets\img\exams\pte.jpg"
             alt="GMAT Banner"
             className="block w-full h-auto object-cover"
           />
@@ -109,7 +109,7 @@ function PTE() {
 
       {/* marks */}
       <div className='w-full bg-pink-50 border-collapse rounded-lg p-8'>
-        <h3 className="text-lg sm:text-xl md:text-3xl font-bold text-black text-center mt-8 md:mt-8">What is a Good GRE Score ?</h3>
+        <h3 className="text-lg sm:text-xl md:text-3xl font-bold text-black text-center mt-8 md:mt-8">What is a Good PTE Score ?</h3>
         <div className="mt-6 px-4 md:px-16">
           <img
             src="src\assets\img\exams\banners\pte-score.PNG"

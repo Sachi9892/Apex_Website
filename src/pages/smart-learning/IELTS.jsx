@@ -1,12 +1,13 @@
-import React from 'react'
 
-import { ieltsFactsData, crackIelts, ieltsTrainingData } from '../../data/exams/IeltsData'
+import { ieltsFactsData, ieltsTrainingData, crackIelts } from '../../data/exams/IeltsData';
 
-import ExploreExams from '../../components/ExploreExams'
-import ExploreCountries from '../../components/ExploreCountries'
+import ExploreCountries from '../../components/ExploreCountries';
+import ExploreExams from '../../components/ExploreExams';
+import ImageWithTextAndButton from '../../components/ImageWithTextAndButton';
 import { useNavigate } from "react-router-dom";
 
 function IELTS() {
+
   const navigate = useNavigate();
   return (
 
@@ -16,21 +17,21 @@ function IELTS() {
       <div className="flex flex-col md:flex-row items-center w-full">
         <div className="max-w-[500px] md:w-1/2">
           <img
-            src="src\assets\img\exams\banners\lelts.webp"
+            src="src\assets\img\exams\banners\ielts-logo.jpg"
             alt="Ielts Banner"
-            className="block max-w-[500px] w-full h-auto object-contain mx-auto"
+            className="block max-w-[500px] ml-8 mt-6 border-collapse w-full h-auto object-contain mx-auto"
           />
         </div>
         <div className="w-full md:w-1/2 p-6 flex flex-col items-center md:items-start">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-800 md:mt-0 mb-2 md:mb-4 text-center md:text-left">
+          <h2 className="text-xl md:text-2xl ml-8 font-bold text-gray-800 md:mt-0 mb-2 md:mb-4 text-center md:text-left">
             Best IELTS Coaching in Mumbai
           </h2>
-          <p className="text-gray-700 mb-4 md:mb-6 text-center md:text-left">
+          <p className="text-gray-700 ml-8 mb-4 md:mb-6 text-center md:text-left">
             Trust Apex Educare expert IELTS mentors to equip you with the
             knowledge and strategies you need to succeed. Thousands of IELTS aspirants have got their desired score with us.
           </p>
           <div className="items-center justify-center">
-            <button onClick={() => navigate("/contact-us")} className="text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
+            <button onClick={() => navigate("/contact-us")} className="text-center ml-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
               Book Free Demo Class!
             </button>
           </div>
@@ -116,7 +117,7 @@ function IELTS() {
 
 
 
-      {/* Crack GMAT Section (Looks responsive with grid) */}
+      {/* Crack IELTS Section (Looks responsive with grid) */}
       <div className='bg-red-500 w-full'>
         <h3 className="text-lg sm:text-xl md:text-2xl font-medium text-white text-center mt-6 md:mt-6">Crack IELTS with <strong>7+</strong> Bands in 30 Days With Apex Educare</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 md:px-16 w-full mb-10 mt-8">
@@ -184,7 +185,7 @@ function IELTS() {
 
       <ImageWithTextAndButton
         bgImage="src/assets/img/countries/australia/aus-bg.png"
-        heading="Prep For Duolingo"
+        heading="Prep For IELTS"
         imgSrc="src/assets/img/models/boy.png"
       />
 

@@ -133,7 +133,7 @@ function GMAT() {
 
       {/* Crack GMAT Section (Looks responsive with grid) */}
       <div className='bg-red-500 w-full'>
-        <h3 className="text-lg sm:text-base md:text-3xl font-bold text-white text-center mt-6 md:mt-4">Crack GMAT with <strong>650+</strong> Score in 30 Days With Apex Educare</h3>
+        <h3 className="text-lg sm:text-base md:text-3xl font-bold text-white text-center mt-6 md:mt-4">Crack GMAT with <strong>650+</strong> Score in 90 Days With Apex Educare</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 md:px-16 w-full mb-10 mt-8">
           {crackGmat.map((card, index) => (
             <div

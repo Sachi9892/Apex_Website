@@ -12,7 +12,7 @@ export const whyToStudyDubai = [
         description: "The city boasts state-of-the-art facilities, cutting-edge technology, and modern campuses equipped with the latest educational resources. This dynamic learning environment ensures students are well-prepared for the challenges of the modern world."
     },
     {
-        title: "High Qualityof Life",
+        title: "High Quality of Life",
         description: "Dubai offers a high standard of living with world-class amenities, entertainment options, and a safe environment. Its modern infrastructure, iconic landmarks, and vibrant lifestyle make it an attractive destination for students seeking both education and quality of life."
     },
 ];
@@ -31,7 +31,7 @@ export const dubaiTestAccordion = [
     },
     {
         content: "The required PTE scores for undergraduate programs can range from 55 to 65, with minimum sub-scores in each section. For postgraduate programs, scores might be around 65 to 75 or more.",
-        icon: "src/assets/img/exams/pte.png",
+        icon: "src/assets/img/exams/pte.jpg",
     },
 
 ];
@@ -80,8 +80,9 @@ export const dubaiInfo = [
 
 
 export const images = [
-    "src/assets/img/countries/usa/Page1.png",
-    "src/assets/img/countries/usa/Page2.png",
-    "src/assets/img/countries/usa/Page3.png",
-    "src/assets/img/countries/usa/Page4.png",
+    "src/assets/img/countries/dubai/page1.png",
+    "src/assets/img/countries/dubai/page2.png",
+    "src/assets/img/countries/dubai/page3.png",
+    "src/assets/img/countries/dubai/page4.png",
+    "src/assets/img/countries/dubai/page3.png",
 ];

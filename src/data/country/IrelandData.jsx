@@ -20,21 +20,22 @@ export const whyToStudyIreland = [
 
 
 export const irelandTestAccordion = [
+
     {
-        content: "TOEFL measures a student’s English language proficiency and is required for non-native English speakers. It is crucial for students applying to American universities and colleges. TOEFL minimum requirements in the US range from 70-100 out of 120.",
+        content: "TOEFL measures a student’s English language proficiency and is required for non-native English speakers. Minimum requirements usually range from 70-100 out of 120.",
         icon: "src/assets/img/exams/toefl.png",
     },
     {
-        content: "Duolingo is required for admission to business schools for MBA and other management-related programs. GMAT minimum requirements in the US range from 550-650 out of 800.",
-        icon: "src/assets/img/exams/banners/duolingo.jpg",
-    },
-    {
-        content: "IELTS (International English Language Testing System): Similar to TOEFL, IELTS is another English language proficiency test accepted by American institutions.IELTS minimum requirements in the US range from 6 to 7+ bands out of 9.0.",
+        content: "IELTS (International English Language Testing System): Similar to TOEFL, IELTS is another English language proficiency test accepted by many institutions. Typical minimum requirements range from 6 to 7+ bands out of 9.0.",
         icon: "src/assets/img/exams/ielts.png",
     },
     {
-        content: "PTE is also accepted by many Canadian institutions. An overall score of 50 to 60 is commonly expected for undergraduate admissions, while graduate programs might require scores around 60 to 70.",
-        icon: "src/assets/img/exams/pte.png",
+        content: "PTE is also accepted by various institutions. An overall score of 50 to 60 is commonly expected for undergraduate admissions, while graduate programs might require scores around 60 to 70.",
+        icon: "src/assets/img/exams/pte.jpg",
+    },
+    {
+        content: "The Duolingo English Test is an online, AI-powered language proficiency exam that evaluates reading, writing, speaking, and listening skills. It can be taken anytime from home and is accepted by thousands of universities worldwide as proof of English proficiency.",
+        icon: "src/assets/img/exams/duolingo.png",
     },
 
 ];
@@ -72,7 +73,7 @@ export const irelandInfo = [
     },
     {
         title: 'Ireland Student Visa Process',
-        content: `✔️ International students from India typically require a student visa to study in Ireland. To apply for a student visa, you’ll need to provide the acceptance letter from the Irish university, proof of sufficient funds to cover tuition fees and living expenses, and proof of English language proficiency.
+        content: `✔️ International students from India typically require a student visa to study in Ireland. To apply for a student visa, you’ll need to provide the acceptance letter from the Irish university, payment of tuition fees and proof of living expenses, and proof of English language proficiency.
 
         ✔️ You’ll also need to demonstrate your intention to return to your home country after completing your studies. The application process is done online through the Irish Naturalisation and Immigration Service (INIS) website.`,
 

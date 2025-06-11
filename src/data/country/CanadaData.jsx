@@ -1,12 +1,9 @@
 export const whyToStudyCanada = [
     {
-        title: "world class education",
+        title: "World Class Education",
         description: "Canada is known for its high-quality education system, offering a diverse range of programs and courses. Renowned universities and colleges ensure students receive a top-notch education that’s recognized globally. It is the hub for groundbreaking research and innovation."
     },
-    {
-        title: "Quality of Life and Cultural Exposure",
-        description: "Canada is consistently ranked as one of the safest countries in the world. Its friendly and inclusive atmosphere makes international students feel welcome and at home. It boasts a high quality of life, offering stunning natural landscapes, vibrant cities, and a strong emphasis on work-life balance."
-    },
+
     {
         title: "Post-Graduation Work Opportunities",
         description: "Canada offers excellent post-study work opportunities for international students. The Post-Graduation Work Permit (PGWP) allows students to work for up to three years after completing their studies, gaining valuable work experience."
@@ -15,32 +12,35 @@ export const whyToStudyCanada = [
         title: "Pathway to Permanent Residency",
         description: "Studying in Canada can be a pathway to obtaining permanent residency. Many provinces offer programs that facilitate the transition from student to permanent resident, allowing students to build their future in Canada."
     },
+    {
+        title: "Quality of Life and Cultural Exposure",
+        description: "Canada is consistently ranked as one of the safest countries in the world. Its friendly and inclusive atmosphere makes international students feel welcome and at home. It boasts a high quality of life, offering stunning natural landscapes, vibrant cities, and a strong emphasis on work-life balance."
+    },
 ];
 
 
 
 export const canadaTestAccordion = [
     {
-        content: "GRE is often required for admission to graduate programs, including master’s and doctoral degrees. It assesses verbal reasoning, quantitative reasoning, and analytical writing skills. GRE minimum requirements in the US range from 280-320 out of 340.",
+        content: "GRE is often required for admission to graduate programs, including master’s and doctoral degrees. It assesses verbal reasoning, quantitative reasoning, and analytical writing skills. Minimum requirements typically range from 280-320 out of 340.",
         icon: "src/assets/img/exams/gre.jpg",
     },
     {
-        content: "GMAT is required for admission to business schools for MBA and other management-related programs. GMAT minimum requirements in the US range from 550-650 out of 800.",
+        content: "GMAT is required for admission to business schools for MBA and other management-related programs. Minimum score expectations generally range from 550-650 out of 800.",
         icon: "src/assets/img/exams/gmat.png",
     },
     {
-        content: "TOEFL measures a student’s English language proficiency and is required for non-native English speakers. It is crucial for students applying to American universities and colleges. TOEFL minimum requirements in the US range from 70-100 out of 120.",
+        content: "TOEFL measures a student’s English language proficiency and is required for non-native English speakers. Minimum requirements usually range from 70-100 out of 120.",
         icon: "src/assets/img/exams/toefl.png",
     },
     {
-        content: "IELTS (International English Language Testing System): Similar to TOEFL, IELTS is another English language proficiency test accepted by American institutions.IELTS minimum requirements in the US range from 6 to 7+ bands out of 9.0.",
+        content: "IELTS (International English Language Testing System): Similar to TOEFL, IELTS is another English language proficiency test accepted by many institutions. Typical minimum requirements range from 6 to 7+ bands out of 9.0.",
         icon: "src/assets/img/exams/ielts.png",
     },
     {
-        content: "PTE is also accepted by many Canadian institutions. An overall score of 50 to 60 is commonly expected for undergraduate admissions, while graduate programs might require scores around 60 to 70.",
-        icon: "src/assets/img/exams/pte.png",
+        content: "PTE is also accepted by various institutions. An overall score of 50 to 60 is commonly expected for undergraduate admissions, while graduate programs might require scores around 60 to 70.",
+        icon: "src/assets/img/exams/pte.jpg",
     },
-
 ];
 
 
@@ -81,7 +81,7 @@ export const canadaInfo = [
 
         ✔️ Student Direct Stream process is open to Indian nationals only.
 
-        ✔️ We have ICICI, Scotia Bank, HSBC & other Canadian financial institutions participating in this program. Once the student Student’s GIC has been opened, you may transfer the funds to your account in Canada by using any bank in India in which you hold your account.
+        ✔️ We have ICICI, Bank Of Montreal, Scotia Bank, HSBC & other Canadian financial institutions participating in this program. Once the student Student’s GIC has been opened, you may transfer the funds to your account in Canada by using any bank in India in which you hold your account.
 
         ✔️ Guaranteed Investment Certificate (GIC)
             According to Citizenship and Immigration Canada guidelines, you will require $10,000 CAD per year, not including tuition fees, to cover your living expenses. This requirement is fulfilled through the purchase of a participating GIC, and evidence that you have paid your tuition.`,

@@ -16,7 +16,7 @@ function GRE() {
       <div className="flex flex-col md:flex-row items-center w-full">
         <div className="w-full md:w-1/2">
           <img
-            src="src/assets/img/exams/banners/gre1.png"
+            src="src\assets\img\exams\gre.jpg"
             alt="GMAT Banner"
             className="block max-w-[500px] w-full h-auto object-contain mx-auto"
           />
@@ -111,7 +111,7 @@ function GRE() {
 
       {/* Crack GRE Section */}
       <div className='bg-red-500 w-full'>
-        <h3 className="text-lg sm:text-xl md:text-3xl font-bold text-white text-center mt-8 md:mt-8">Crack GRE with <strong>300+</strong> Score in 30 Days With Apex Educare</h3>
+        <h3 className="text-lg sm:text-xl md:text-3xl font-bold text-white text-center mt-8 md:mt-8">Crack GRE with <strong>300+</strong> Score in 90 Days With Apex Educare</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 md:px-16 w-full mb-10 mt-8">
           {crackGre.map((card, index) => (
             <div

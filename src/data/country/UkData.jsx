@@ -12,24 +12,24 @@ export const whyToStudyUk = [
         description: "Studying in the UK allows students to experience a rich cultural mix, fostering a sense of global understanding and creating lifelong friendships from different backgrounds. The UK also universities prioritize the welfare and success of their students."
     },
     {
-        title: "2-Year Post-Study Work Visa",
-        description: "One of the most appealing aspects of studying in the UK is the opportunity to apply for a 2-year post-study work visa after completing a degree. This visa allows international students to stay and work in the UK, gaining valuable work experience and exploring career opportunities in their chosen fields."
+        title: "18 Months Post-Study Work Visa",
+        description: "One of the most appealing aspects of studying in the UK is the opportunity to apply for a 18 Months post-study work visa after completing a degree. This visa allows international students to stay and work in the UK, gaining valuable work experience and exploring career opportunities in their chosen fields."
     },
 ];
 
 
 export const ukTestAccordion = [
     {
-        content: "TOEFL measures a student’s English language proficiency and is required for non-native English speakers. It is crucial for students applying to American universities and colleges. TOEFL minimum requirements in the US range from 70-100 out of 120.",
+        content: "TOEFL measures a student’s English language proficiency and is required for non-native English speakers. Minimum requirements usually range from 70-100 out of 120.",
         icon: "src/assets/img/exams/toefl.png",
     },
     {
-        content: "IELTS (International English Language Testing System): Similar to TOEFL, IELTS is another English language proficiency test accepted by American institutions.IELTS minimum requirements in the US range from 6 to 7+ bands out of 9.0.",
+        content: "IELTS (International English Language Testing System): Similar to TOEFL, IELTS is another English language proficiency test accepted by many institutions. Typical minimum requirements range from 6 to 7+ bands out of 9.0.",
         icon: "src/assets/img/exams/ielts.png",
     },
     {
-        content: "PTE is an innovative computer-based English language proficiency test. It evaluates your ability to communicate effectively in academic settings. Many UK universities consider PTE scores as evidence of language proficiency. To meet admission requirements, aim for a PTE score of 50 to 65. Scoring higher than the minimum ensures you’re well-prepared for the academic challenges that lie ahead.",
-        icon: "src/assets/img/exams/pte.png",
+        content: "PTE is also accepted by various institutions. An overall score of 50 to 60 is commonly expected for undergraduate admissions, while graduate programs might require scores around 60 to 70.",
+        icon: "src/assets/img/exams/pte.jpg",
     },
 ];
 

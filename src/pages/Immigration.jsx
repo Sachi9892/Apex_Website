@@ -20,8 +20,9 @@ function Immigration() {
             Experience Immigration With Apex Educare
           </h2>
           <p className="text-white text-sm md:text-lg">
-            Trust Apex Educare expert GMAT mentors to equip you with the
-            knowledge and strategies you need to succeed. Thousands of GMAT aspirants have got their desired score with us.
+            Set sail for immigration success with Apex Educare Immigration, your
+            trusted partner in achieving your dreams of living abroad. Your
+            journey to a new life starts here.
           </p>
         </div>
       </div>
@@ -32,7 +33,7 @@ function Immigration() {
         {/* Left Content */}
         <div className="w-full md:w-1/2 flex flex-col justify-center items-start space-y-4">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800">The Best Immigration
-            Consultants in Hyderabad</h2>
+            Consultants in Mumbai</h2>
           <p className="text-gray-700 text-sm md:text-base">Many young Indians seek to establish themselves overseas,
             yet the journey of relocating to a foreign land can be overwhelming and challenging.
             Our experienced team of professionals guides you through every step,

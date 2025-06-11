@@ -1,33 +1,25 @@
 export const whyToStudyNz = [
     {
-        title: "world class education",
-        description: "Canada is known for its high-quality education system, offering a diverse range of programs and courses. Renowned universities and colleges ensure students receive a top-notch education that’s recognized globally. It is the hub for groundbreaking research and innovation."
+        title: "GLOBAL RECOGNITION",
+        description: "This implies that students who have studied at the universities in New Zealand are coming up as new world class innovators. Qualifications are recognized internationally."
     },
     {
-        title: "Quality of Life and Cultural Exposure",
-        description: "Canada is consistently ranked as one of the safest countries in the world. Its friendly and inclusive atmosphere makes international students feel welcome and at home. It boasts a high quality of life, offering stunning natural landscapes, vibrant cities, and a strong emphasis on work-life balance."
+        title: "BEST OF BOTH WORLDS QUALIFICATION",
+        description: "Added to that, their costs of production are still comparatively low, as they are also now an internationally recognized producer. There are many reasons for this perception: First and foremost, New Zealand qualifications are up to date."
     },
     {
-        title: "Post-Graduation Work Opportunities",
-        description: "Canada offers excellent post-study work opportunities for international students. The Post-Graduation Work Permit (PGWP) allows students to work for up to three years after completing their studies, gaining valuable work experience."
+        title: "MIGRATION AND JOB SEARCH OPPORTUNITY",
+        description: "The law provides the students with a visa to look for a job after their course and they also have a bright chance to immigrate. The foreigners are also entitled to post-study work visa of 2-3 years if they wish to study in New Zealand."
     },
     {
-        title: "Pathway to Permanent Residency",
-        description: "Studying in Canada can be a pathway to obtaining permanent residency. Many provinces offer programs that facilitate the transition from student to permanent resident, allowing students to build their future in Canada."
+        title: "LOW TUITION FEES",
+        description: "The cost for meals, accommodation and transport for students aspiring to study in New Zealand is still much cheaper than that of other study destination. Thus, studying at the New Zealand is more affordable to many students as compared to studying at other international destinations."
     },
 ];
 
 
 
 export const nzTestAccordion = [
-    {
-        content: "GRE is often required for admission to graduate programs, including master’s and doctoral degrees. It assesses verbal reasoning, quantitative reasoning, and analytical writing skills. GRE minimum requirements in the US range from 280-320 out of 340.",
-        icon: "src/assets/img/exams/gre.jpg",
-    },
-    {
-        content: "GMAT is required for admission to business schools for MBA and other management-related programs. GMAT minimum requirements in the US range from 550-650 out of 800.",
-        icon: "src/assets/img/exams/gmat.png",
-    },
     {
         content: "TOEFL measures a student’s English language proficiency and is required for non-native English speakers. It is crucial for students applying to American universities and colleges. TOEFL minimum requirements in the US range from 70-100 out of 120.",
         icon: "src/assets/img/exams/toefl.png",
@@ -38,7 +30,11 @@ export const nzTestAccordion = [
     },
     {
         content: "PTE is also accepted by many Canadian institutions. An overall score of 50 to 60 is commonly expected for undergraduate admissions, while graduate programs might require scores around 60 to 70.",
-        icon: "src/assets/img/exams/pte.png",
+        icon: "src/assets/img/exams/pte.jpg",
+    },
+    {
+        content: "The Duolingo English Test is an online, AI-powered language proficiency exam that evaluates reading, writing, speaking, and listening skills. It can be taken anytime from home and is accepted by thousands of universities worldwide as proof of English proficiency.",
+        icon: "src/assets/img/exams/duolingo.png",
     },
 
 ];
@@ -46,45 +42,59 @@ export const nzTestAccordion = [
 
 export const nzInfo = [
     {
-        title: 'Canada study intake',
-        content: `✔️ Canada offers two main intakes for international students – Fall and Winter. The Fall intake typically begins in September and is the most popular intake
+        title: 'New Zealand study intake',
+        content: `✔️ 1. February Intake (Primary)	
+        Feb – March	Most popular intake
+        Wide range of courses available
 
-        ✔️ The Winter intake starts in January and is ideal for students who missed the Fall intake or prefer a slightly later start.
+        ✔️ 2. July Intake (Secondary)	July – August	
+        Good for students who miss the February intake
+        Moderate course availability
 
-        ✔️ Some institutions may also offer a smaller Summer intake that starts in May or June. It’s essential to check specific program availability and application deadlines for each intake.`,
+        ✔️ 3. November Intake (Limited)	October – November	
+        Limited programs
+       Offered mainly by Institutes of Technology and some private providers`,
 
         image: "src/assets/img/models/model1.png",
     },
     {
-        title: 'Canada study cost',
-        content: `✔️ The cost of studying in Canada can vary depending on factors such as the program, institution, and location
+        title: 'New Zealand study cost',
+        content: `✔️ Undergraduate Programs
+        NZD 22,000 – 32,000 per year
+        Higher for specialized programs like Engineering or Health Sciences.
 
-        ✔️ On average, tuition fees for undergraduate programs can range from CAD 15,000 to CAD 35,000 per year, while postgraduate programs might cost between CAD 20,000 and CAD 40,000 per year.
+        ✔️  Postgraduate Programs
+        NZD 26,000 – 37,000 per year
+        MBAs or Executive programs may go up to NZD 50,000+.
 
-        ✔️ In addition to tuition, students should budget for accommodation, living expenses, insurance, and other miscellaneous costs. It’s advisable to research and plan your budget accordingly`,
+        ✔️ Vocational & Diploma Programs (Level 5–7)
+        NZD 14,000 – 20,000 per year
+        Offered by institutes like Toi Ohomai, Otago Polytechnic, Wintec.`,
+
         image: "src/assets/img/models/model5.png",
     },
     {
-        title: 'Study in Canada Requirements',
-        content: `✔️ The requirements to study in Canada depend on the level of education and the specific program you’re applying for.
+        title: 'Study in New Zealand Requirements',
+        content: `✔️ Personal & Academic Documents:
+        Valid passport, completed application form, transcripts, and certificates.
 
-        ✔️ You’ll need to provide academic transcripts, language proficiency test scores (such as IELTS, TOEFL, or PTE), a valid passport, and proof of financial capacity to cover tuition and living expenses.
+        ✔️ English Proficiency:
+IELTS, TOEFL, or PTE scores as per university requirements.
 
-        ✔️ Some programs or institutions might have additional prerequisites like portfolios for creative courses or entrance exams for specialized programs.`,
+        ✔️ Supporting Documents:
+Statement of Purpose (SOP), Letters of Recommendation (LORs), and CV/resume.,
+
+✔️ Additional Requirements:
+Financial proof, health documents, and portfolio (for creative courses).`,
         image: "src/assets/img/models/model2.png",
     },
     {
-        title: 'Canada Student Visa Process',
-        content: `✔️ Student Direct Stream (SDS). Previously it was SPP (Student Partnership Program), now it has been recently updated and now it is SDS (Student Direct Stream) it is an administrative framework designed and implemented in partnership between the Canadian visa offices in India and the Association of Canadian Community Colleges (ACCC). 
+        title: 'New Zealand Student Visa Process',
+        content: `✔️ Unconditional Offer Letter & Financial Proof: Provide an offer letter and financial proof for 12 months covering tuition and living expenses.
 
-        ✔️ SDS is created in order to speed up visa processing and to reduce the number of documents needed to assess visa/Study Permit applications for a certain category of students admitted to select Colleges / Universities. All Public Colleges & Universities will fall under this Category.
+        ✔️ Academic Documents & Resume: Submit relevant academic records and a resume.
 
-        ✔️ Student Direct Stream process is open to Indian nationals only.
-
-        ✔️ We have ICICI, Scotia Bank, HSBC & other Canadian financial institutions participating in this program. Once the student Student’s GIC has been opened, you may transfer the funds to your account in Canada by using any bank in India in which you hold your account.
-
-        ✔️ Guaranteed Investment Certificate (GIC)
-            According to Citizenship and Immigration Canada guidelines, you will require $10,000 CAD per year, not including tuition fees, to cover your living expenses. This requirement is fulfilled through the purchase of a participating GIC, and evidence that you have paid your tuition.`,
+        ✔️ Medical Insurance & Police Clearance: Medical insurance is mandatory, along with a police clearance certificate.`,
 
         image: "src/assets/img/models/model3.png",
     },

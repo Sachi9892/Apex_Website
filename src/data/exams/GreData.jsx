@@ -45,7 +45,7 @@ export const crackGre = [
     },
     {
         title: "Time Management Strategies",
-        description: "Take full-length mock tests to simulate the real GMAT exam experience and assess your progress."
+        description: "Take full-length mock tests to simulate the real GRE exam experience and assess your progress."
     },
     {
         title: "Analytical Writing Coaching",
@@ -58,9 +58,9 @@ export const crackGre = [
 export const grePorgram = [
     {
         title: "GRE Online",
-        time: "7:00 PM to 8:00 PM",
-        batchStart: "5th of Every Month",
-        duration: "30 days",
+        time: "10 AM to 6:30 PM",
+        batchStart: "Personalized Coaching",
+        duration: "90 days",
         features: [
             "Certified and experienced faculty",
             "Advanced Quantitative Strategies",
@@ -81,9 +81,9 @@ export const grePorgram = [
     },
     {
         title: "GRE Offline",
-        time: "7:00 PM to 8:00 PM",
-        batchStart: "5th of Every Month",
-        duration: "30 days",
+        time: "10 AM to 6:30 PM",
+        batchStart: "Personalized Coaching",
+        duration: "90 days",
         features: [
             "Certified and experienced faculty",
             "Advanced Quantitative Strategies",

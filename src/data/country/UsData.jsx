@@ -1,6 +1,6 @@
 export const whyToStudyUsa = [
     {
-        title: "world class education",
+        title: "World Class Education",
         description: "Studying in the USA offers access to renowned universities and colleges known for their exceptional academic standards. With a diverse range of programs, experienced faculty, and state-of-the-art facilities, students receive a rigorous and comprehensive education that empowers them to excel in their chosen fields and compete on an international level."
     },
     {
@@ -20,7 +20,7 @@ export const whyToStudyUsa = [
 
 export const usaTestAccordion = [
     {
-        content: "TGRE is often required for admission to graduate programs, including master’s and doctoral degrees. It assesses verbal reasoning, quantitative reasoning, and analytical writing skills. GRE minimum requirements in the US range from 280-320 out of 340.",
+        content: "GRE is often required for admission to graduate programs, including master’s and doctoral degrees. It assesses verbal reasoning, quantitative reasoning, and analytical writing skills. GRE minimum requirements in the US range from 280-320 out of 340.",
         icon: "src/assets/img/exams/gre.jpg",
     },
     {
@@ -39,6 +39,14 @@ export const usaTestAccordion = [
         content: "SAT is commonly used for undergraduate admissions and assesses a student’s readiness for college. It consists of sections in Reading, Writing and Language, and Math. SAT minimum requirements in the US range from 1000-1200 out of 1600.",
         icon: "src/assets/img/exams/digi-sat.png",
     },
+    {
+        content: "PTE is an innovative computer-based English language proficiency test. It evaluates your ability to communicate effectively in academic settings. Many UK universities consider PTE scores as evidence of language proficiency. To meet admission requirements, aim for a PTE score of 50 to 65. Scoring higher than the minimum ensures you’re well-prepared for the academic challenges that lie ahead.",
+        icon: "src/assets/img/exams/pte.jpg",
+    },
+    {
+        content: "The Duolingo English Test is an online, AI-powered language proficiency exam that evaluates reading, writing, speaking, and listening skills. It can be taken anytime from home and is accepted by thousands of universities worldwide as proof of English proficiency.",
+        icon: "src/assets/img/exams/duolingo.png",
+    },
 ];
 
 
@@ -46,7 +54,7 @@ export const usaTestAccordion = [
 export const usInfo = [
     {
         title: 'Intake',
-        content: `✔️ he intake periods for studying in the USA are typically divided into two main sessions – Fall and Spring.
+        content: `✔️ The intake periods for studying in the USA are typically divided into two main sessions – Fall and Spring.
 
         ✔️ The Fall intake usually begins in August or September, while the Spring intake starts in January.
 

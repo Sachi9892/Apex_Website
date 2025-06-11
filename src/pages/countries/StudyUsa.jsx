@@ -291,7 +291,7 @@ function StudyUsa() {
 
       <ImageWithTextAndButton
         bgImage="src/assets/img/countries/usa/us-bg.png"
-        heading="Welcome to Australia"
+        heading="Welcome to USA"
         imgSrc="src/assets/img/models/boy.png"
       />
 

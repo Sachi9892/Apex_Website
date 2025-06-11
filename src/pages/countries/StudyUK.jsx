@@ -76,7 +76,7 @@ function StudyUK() {
 
       {/* Tests Required to Study in UK */}
       <div className="w-full p-6">
-        <h3 className="text-xl mt-4 sm:text-2xl md:text-3xl font-bold text-center"><strong>Test Required To Study In New Zealand</strong></h3>
+        <h3 className="text-xl mt-4 sm:text-2xl md:text-3xl font-bold text-center"><strong>Test Required To Study In UK</strong></h3>
 
         <div className="flex flex-col md:flex-row items-start w-full">
           {/* Accordion Section */}
@@ -141,7 +141,7 @@ function StudyUK() {
       {/* Courses in UK  */}
       <div className='w-full bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('src/assets/img/countries/uk/uk-bg.png')" }}>
         <div className="px-4 md:px-8 w-full overflow-x-auto mb-10">
-          <h3 className="text-xl mt-4 sm:text-2xl md:text-3xl font-bold text-center mb-6"><strong>Popular Courses In UK</strong></h3>
+          <h3 className="text-xl mt-4 sm:text-2xl md:text-3xl text-white font-bold text-center mb-6"><strong>Popular Courses In UK</strong></h3>
           <table className="min-w-[250px] md:min-w-full bg-white border border-gray-500 text-sm md:text-base mt-8">
             <thead>
               <tr className="bg-gray-100 text-gray-600">
@@ -272,7 +272,7 @@ function StudyUK() {
       {/* UK universities list */}
       <div
         className="w-full py-10 bg-cover bg-center"
-        style={{ backgroundImage: "url('src/assets/img/countries/usa/us-bg.png')" }}
+        style={{ backgroundImage: "url('src/assets/img/countries/uk/uk-bg.png')" }}
       >
         {/* USA Student Life Section */}
         <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6 text-white">

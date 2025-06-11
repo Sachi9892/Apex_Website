@@ -29,7 +29,7 @@ function ContactUs() {
                               Vile Parle East, Mumbai, Maharashtra 400057</p>
                             <p><span className="font-medium">📞 Phone:</span> +91 98212 13536</p>
                             <p><span className="font-medium">📞 Phone:</span> +91 93212 13536</p>
-                            <p><span className="font-medium">📧 Email:</span>info@superapex.com</p>
+                            <p><span className="font-medium">📧 Email:</span> info@superapex.com</p>
                         </div>
                     </div>
 

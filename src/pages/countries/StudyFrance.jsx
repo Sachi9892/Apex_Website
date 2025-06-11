@@ -22,7 +22,7 @@ function StudyFrance() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % images.length);
-    }, 1000); // 1 second
+    }, 3000); // 1 second
 
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);
@@ -135,6 +135,13 @@ function StudyFrance() {
       </div>
 
 
+      {/* MBA
+      Engineering
+      Information Technology
+      Hospitality and Tourism
+      Fashion
+      Culinary Arts */}
+
       {/* Courses in France  */}
       <div className='w-full bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('src/assets/img/countries/france/france-bg.png')" }}>
         <div className="px-4 md:px-8 w-full overflow-x-auto mb-10">
@@ -150,66 +157,37 @@ function StudyFrance() {
             </thead>
             <tbody>
               <tr className="hover:bg-red-200">
-                <td className="py-3 px-4 border-b font-medium">Big Data</td>
+                <td className="py-3 px-4 border-b font-medium">MBA</td>
                 <td className="py-3 px-4 border-b">1 - 2 year</td>
-                <td className="py-3 px-4 border-b">10,000 - 20,000</td>
+                <td className="py-3 px-4 border-b">EUR 10,000 - 20,000</td>
                 <td className="py-3 px-4 border-b">✔️</td>
               </tr>
 
               <tr className="hover:bg-red-200">
-                <td className="py-3 px-4 border-b font-medium">Data Analytics</td>
+                <td className="py-3 px-4 border-b font-medium">Engineering</td>
                 <td className="py-3 px-4 border-b">1 - 2 year</td>
-                <td className="py-3 px-4 border-b">10,000 - 20,000</td>
+                <td className="py-3 px-4 border-b">EUR 10,000 - 20,000</td>
                 <td className="py-3 px-4 border-b">✔️</td>
               </tr>
               <tr className="hover:bg-red-200">
-                <td className="py-3 px-4 border-b font-medium">Business Analytics</td>
+                <td className="py-3 px-4 border-b font-medium">Hospitality and Tourism</td>
                 <td className="py-3 px-4 border-b"> 1 - 2 year</td>
-                <td className="py-3 px-4 border-b">12,000 - 22,000</td>
+                <td className="py-3 px-4 border-b">EUR 10,000 - 20,000</td>
                 <td className="py-3 px-4 border-b">✔️</td>
               </tr>
               <tr className="hover:bg-red-200">
-                <td className="py-3 px-4 border-b font-medium">Data Science</td>
+                <td className="py-3 px-4 border-b font-medium">Fashion</td>
                 <td className="py-3 px-4 border-b">1 - 2 year</td>
-                <td className="py-3 px-4 border-b">10,000 - 25,000</td>
+                <td className="py-3 px-4 border-b">EUR 10,000 - 25,000</td>
                 <td className="py-3 px-4 border-b">✔️</td>
               </tr>
               <tr className="hover:bg-red-200">
-                <td className="py-3 px-4 border-b font-medium">Computer Science</td>
-                <td className="py-3 px-4 border-b">2 - 4 year</td>
-                <td className="py-3 px-4 border-b">12,000 - 25,000</td>
-                <td className="py-3 px-4 border-b">✔️</td>
-              </tr>
-              <tr className="hover:bg-red-200">
-                <td className="py-3 px-4 border-b font-medium">Computer Science</td>
-                <td className="py-3 px-4 border-b">2 year</td>
-                <td className="py-3 px-4 border-b">30,000 - 50,000</td>
-                <td className="py-3 px-4 border-b">✔️</td>
-              </tr>
-              <tr className="hover:bg-red-200">
-                <td className="py-3 px-4 border-b font-medium">Cloud Computing</td>
+                <td className="py-3 px-4 border-b font-medium">Culinary Arts</td>
                 <td className="py-3 px-4 border-b">1 - 2 year</td>
-                <td className="py-3 px-4 border-b">10,000 - 18,000</td>
+                <td className="py-3 px-4 border-b">EUR 10,000 - 20,000</td>
                 <td className="py-3 px-4 border-b">✔️</td>
               </tr>
-              <tr className="hover:bg-red-200">
-                <td className="py-3 px-4 border-b font-medium">Cyber Security</td>
-                <td className="py-3 px-4 border-b">1 - 2 year</td>
-                <td className="py-3 px-4 border-b">12,000 - 22,000</td>
-                <td className="py-3 px-4 border-b">✔️</td>
-              </tr>
-              <tr className="hover:bg-red-200">
-                <td className="py-3 px-4 border-b font-medium">Digital Marketing</td>
-                <td className="py-3 px-4 border-b">1 - 2 year</td>
-                <td className="py-3 px-4 border-b">10,000 - 18,000</td>
-                <td className="py-3 px-4 border-b">✔️</td>
-              </tr>
-              <tr className="hover:bg-red-200">
-                <td className="py-3 px-4 border-b font-medium">Artificial Intelligence</td>
-                <td className="py-3 px-4 border-b">1 - 2 year</td>
-                <td className="py-3 px-4 border-b">12,000 - 25,000</td>
-                <td className="py-3 px-4 border-b">✔️</td>
-              </tr>
+    
             </tbody>
           </table>
         </div>

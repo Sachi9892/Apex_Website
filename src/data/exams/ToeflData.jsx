@@ -58,9 +58,9 @@ export const toeflCrack = [
 export const toeflProgram = [
     {
         title: "TOEFL Online",
-        time: "7:00 PM to 8:00 PM",
-        batchStart: "5th of Every Month",
-        duration: "30 days",
+        time: "10 AM to 6:30 PM",
+        batchStart: "Personalized Coaching",
+        duration: "90 days",
         features: [
             "Grammar Mastery",
             "Effective Sentence Structure",
@@ -80,9 +80,9 @@ export const toeflProgram = [
     },
     {
         title: "TOEFL Offline",
-        time: "7:00 PM to 8:00 PM",
-        batchStart: "5th of Every Month",
-        duration: "30 days",
+        time: "10 AM to 6:30 PM",
+        batchStart: "Personalized Coaching",
+        duration: "90 days",
         features: [
             "Grammar Mastery",
             "Effective Sentence Structure",

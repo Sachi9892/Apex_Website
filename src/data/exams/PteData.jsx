@@ -58,8 +58,8 @@ export const pteCrack = [
 export const pteProgram = [
     {
         title: "PTE Offline",
-        time: "7:00 PM to 8:00 PM",
-        batchStart: "5th of Every Month",
+        time: "10:00 AM to 6:30 PM",
+        batchStart: "Personalized Coaching",
         duration: "30 days",
         features: [
             "Certified and experienced faculty",
@@ -81,8 +81,8 @@ export const pteProgram = [
     },
     {
         title: "PTE Online",
-        time: "7:00 PM to 8:00 PM",
-        batchStart: "5th of Every Month",
+        time: "10:00 AM to 6:30 PM",
+        batchStart: "Personalized Coaching",
         duration: "30 days",
         features: [
             "Certified and experienced faculty",

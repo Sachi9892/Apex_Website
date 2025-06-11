@@ -119,7 +119,7 @@ function SAT() {
 
             {/* Crack SAT Section (Looks responsive with grid) */}
             <div className='bg-red-500 w-full'>
-                <h3 className="text-lg sm:text-xl md:text-3xl font-bold text-black text-center mt-4 md:mt-10">Crack SAT with <strong>7+</strong> Bands in 30 Days With Apex Educare</h3>
+                <h3 className="text-lg sm:text-xl md:text-3xl font-bold text-white text-center mt-4 md:mt-10">Crack SAT with <strong>1100+</strong> Bands in 90 Days With Apex Educare</h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 md:px-16 w-full mb-10 mt-8">
                     {satCrack.map((card, index) => (
                         <div

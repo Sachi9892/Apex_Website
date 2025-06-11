@@ -21,7 +21,7 @@ export const satFacts = [
     },
     {
         title: "Registration Fee",
-        description: "₹8,540 (approx)"
+        description: "₹12,000 (approx)"
     }
 ];
 
@@ -57,10 +57,10 @@ export const satCrack = [
 
 export const satProgram = [
     {
-        title: "SAT Online",
-        time: "7:00 PM to 8:00 PM",
-        batchStart: "5th of Every Month",
-        duration: "30 days",
+        title: "SAT Offline",
+        time: "10 AM to 6:30 PM",
+        batchStart: "Personalized Coaching",
+        duration: "90 days",
         features: [
             "Certified and experienced faculty",
             "Advanced Quantitative Strategies",
@@ -80,10 +80,10 @@ export const satProgram = [
         ],
     },
     {
-        title: "SAT Offline",
-        time: "7:00 PM to 8:00 PM",
-        batchStart: "5th of Every Month",
-        duration: "30 days",
+        title: "SAT Online",
+        time: "10 AM to 6:30 PM",
+        batchStart: "Personalized Coaching",
+        duration: "90 days",
         features: [
             "Certified and experienced faculty",
             "Advanced Quantitative Strategies",
