@@ -6,12 +6,20 @@ import { countryLinks, examLinks } from "../data/NavLinks";
 const DesktopNavbar = () => {
     const [showForeign, setShowForeign] = useState(false);
     const [showSmart, setShowSmart] = useState(false);
+<<<<<<< HEAD
     const [showServices, setShowServices] = useState(false);
+=======
+    const [showOtherServices, setShowOtherServices] = useState(false);
+>>>>>>> 0e464d2cbbb82b2cb445f8d55881abdac576f83f
     const [showEvents, setShowEvents] = useState(false);
 
     const foreignTimeoutRef = useRef(null);
     const smartTimeoutRef = useRef(null);
+<<<<<<< HEAD
     const servicesTimeoutRef = useRef(null);
+=======
+    const otherServicesTimeoutRef = useRef(null);
+>>>>>>> 0e464d2cbbb82b2cb445f8d55881abdac576f83f
     const eventsTimeoutRef = useRef(null);
 
     const handleEnter = (setFn, timeoutRef) => {
@@ -24,6 +32,17 @@ const DesktopNavbar = () => {
             setFn(false);
         }, 100);
     };
+
+    const otherServicesLinks = [
+        { name: "Forex", path: "/other/forex" },
+        { name: "Accommodation", path: "/other/accommodation" },
+        { name: "Education Loan", path: "/other/education-loan" },
+    ];
+
+    const eventsLinks = [
+        { name: "On Spot Assessment", path: "/events/on-spot-assessment" },
+        { name: "Edu Fair", path: "/events/edu-fair" },
+    ];
 
     return (
         <div className="hidden md:flex space-x-6 text-gray-700 items-center relative z-50">
@@ -88,6 +107,7 @@ const DesktopNavbar = () => {
             {/* Other Services Dropdown */}
             <div
                 className="relative"
+<<<<<<< HEAD
                 onMouseEnter={() => handleEnter(setShowServices, servicesTimeoutRef)}
                 onMouseLeave={() => handleLeave(setShowServices, servicesTimeoutRef)}
             >
@@ -109,6 +129,26 @@ const DesktopNavbar = () => {
                                 className="px-4 py-2 hover:bg-gray-200"
                             >
                                 {name}
+=======
+                onMouseEnter={() => handleEnter(setShowOtherServices, otherServicesTimeoutRef)}
+                onMouseLeave={() => handleLeave(setShowOtherServices, otherServicesTimeoutRef)}
+            >
+                <button className="flex items-center space-x-1 hover:text-blue-600">
+                    <span className="text-base font-medium text-gray-800 hover:text-blue-600 transition-colors duration-200">Other Services</span>
+                    <ChevronDown size={16} />
+                </button>
+
+                {showOtherServices && (
+                    <div className="absolute mt-6 left-1/2 -translate-x-1/2 bg-white border-collapse shadow-md z-50 transition-all">
+                        {otherServicesLinks.map(({ name, path }) => (
+                            <Link
+                                key={path}
+                                to={path}
+                                onClick={() => setShowOtherServices(false)}
+                                className="block px-6 py-2 hover:bg-gray-300 transition-colors whitespace-nowrap"
+                            >
+                                <span className="text-base font-medium">{name}</span>
+>>>>>>> 0e464d2cbbb82b2cb445f8d55881abdac576f83f
                             </Link>
                         ))}
                     </div>
@@ -123,6 +163,7 @@ const DesktopNavbar = () => {
                 onMouseLeave={() => handleLeave(setShowEvents, eventsTimeoutRef)}
             >
                 <button className="flex items-center space-x-1 hover:text-blue-600">
+<<<<<<< HEAD
                     <span className="text-base font-medium">Events</span>
                     <ChevronDown size={16} />
                 </button>
@@ -132,13 +173,28 @@ const DesktopNavbar = () => {
                             { name: "Edu Fair", path: "/edu-fair" },
                             { name: "On Spot Assessment", path: "/on-spot-assessment" },
                         ].map(({ name, path }) => (
+=======
+                    <span className="text-base font-medium text-gray-800 hover:text-blue-600 transition-colors duration-200">Events</span>
+                    <ChevronDown size={16} />
+                </button>
+
+                {showEvents && (
+                    <div className="absolute mt-6 left-1/2 -translate-x-1/2 bg-white border-collapse shadow-md z-50 transition-all">
+                        {eventsLinks.map(({ name, path }) => (
+>>>>>>> 0e464d2cbbb82b2cb445f8d55881abdac576f83f
                             <Link
                                 key={path}
                                 to={path}
                                 onClick={() => setShowEvents(false)}
+<<<<<<< HEAD
                                 className="px-4 py-2 hover:bg-gray-200"
                             >
                                 {name}
+=======
+                                className="block px-6 py-2 hover:bg-gray-300 transition-colors whitespace-nowrap"
+                            >
+                                <span className="text-base font-medium">{name}</span>
+>>>>>>> 0e464d2cbbb82b2cb445f8d55881abdac576f83f
                             </Link>
                         ))}
                     </div>
@@ -146,7 +202,11 @@ const DesktopNavbar = () => {
             </div>
 
 
+<<<<<<< HEAD
             {/* Static Links */}
+=======
+            {/* Static Links (excluding Other Services and Events) */}
+>>>>>>> 0e464d2cbbb82b2cb445f8d55881abdac576f83f
             {[
                 { name: "Immigration", path: "/immigration" },
                 { name: "About", path: "/about" },
@@ -161,6 +221,7 @@ const DesktopNavbar = () => {
                     {name}
                 </Link>
             ))}
+
         </div>
     );
 };
