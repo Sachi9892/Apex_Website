@@ -35,7 +35,7 @@ function StudyGermany() {
             <div className="relative w-full ">
                 <div className="w-full">
                     <img
-                        src="src\assets\img\countries\germany\germany.png"
+                        src="src\assets\img\countries\edutech\germany-banner.png"
                         alt="Germany Banner"
                         className="block  max-h-[600px] w-full h-auto object-cover"
                     />

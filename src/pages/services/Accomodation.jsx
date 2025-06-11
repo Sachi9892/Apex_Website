@@ -26,7 +26,7 @@ function Accomodation() {
                     </h2>
                     <p className="text-gray-700 ml-16 mb-4 md:mb-6 text-center md:text-left">
                         <strong>Find your home, away from home
-                            With Apex Educare </strong>
+                            With Apex Edutech </strong>
                     </p>
                 </div>
             </div>
@@ -48,7 +48,7 @@ function Accomodation() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {/* Card 1 */}
                     <div className="bg-blue-50 rounded-lg shadow-md p-6">
-                        <h3 className="text-xl font-semibold mb-2 text-blue-800">The Apex Educare Promise</h3>
+                        <h3 className="text-xl font-semibold mb-2 text-blue-800">The Apex Edutech Promise</h3>
                         <p className="text-gray-700 text-sm md:text-base">
                             For accommodations, we provide the maximum support to our students and ensure their comfort and safety.
                         </p>

@@ -38,7 +38,7 @@ function ExploreCountries() {
     return (
         <div className="w-full flex flex-col items-center py-10 space-y-8 bg-gray-50">
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center">
-                <strong>Explore Countries With Apex Educare</strong>
+                <strong>Explore Countries With Apex Edutech</strong>
             </h2>
 
             <div className="flex flex-col sm:flex-row items-center w-full max-w-7xl px-2 ml-2 sm:px-4 space-y-4 sm:space-y-0 sm:space-x-4 ml-2">

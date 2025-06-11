@@ -35,11 +35,11 @@ function Home() {
                 {/* Text Overlay */}
                 <div className="absolute right-0 top-1/2 transform -translate-y-1/2 px-6 md:px-12 w-full md:w-1/2">
                     <h2 className="text-2xl md:text-4xl font-bold text-black mb-2">
-                        <strong>Welcome To Apex Educare</strong>
+                        <strong>Welcome To Apex Edutech</strong>
                     </h2>
-                    <p className="text-black text-sm md:text-lg">   
+                    <p className="text-black mb-2 text-sm md:text-lg text-black">
                         <strong>
-                            Trust Apex Educare expert mentors to equip you with the
+                            Trust Apex Edutech expert mentors to equip you with the
                             knowledge and strategies you need to succeed.
                         </strong>
                     </p>
@@ -54,7 +54,6 @@ function Home() {
                 </div>
             </div>
 
-
             {/* Left content + right image */}
             <div className="w-full flex flex-col md:flex-row items-center py-10 md:py-16 px-4 md:px-16 bg-white">
 
@@ -64,7 +63,7 @@ function Home() {
                         Championing Student Success
                     </h2>
                     <p className="text-gray-700 text-sm md:text-base">
-                        Apex Educare stands as the ultimate destination for all foreign education and immigration services for more than 25 years.
+                        Apex Edutech stands as the ultimate destination for all foreign education and immigration services for more than 25 years.
                         Our counselors serve as the bedrock of our association, meticulously guiding each individual with utmost care.
                         With a keen focus on identifying each student’s unique strengths and limitations, our experienced counselors ensure a personalized approach to every journey.
                     </p>
@@ -101,7 +100,7 @@ function Home() {
                     <strong>One-Stop Destination for All Your Study Abroad Needs</strong>
                 </h2>
                 <p className="text-sm sm:text-sm md:text-lg font-medium text-black text-center mt-2">
-                    Apex Educare streamlines your entire study abroad journey for success.
+                    Apex Edutech streamlines your entire study abroad journey for success.
                 </p>
 
                 <div className="grid mt-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -162,7 +161,7 @@ function Home() {
 
             <ImageWithTextAndButton
                 bgImage="src/assets/img/countries/ireland/ireland-bg.png"
-                heading="Contact Us !"
+                heading="Contact Apex Edutech !"
                 imgSrc="src/assets/img/models/boy.png"
             />
 

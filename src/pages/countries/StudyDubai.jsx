@@ -38,7 +38,7 @@ function StudyDubai() {
             <div className="relative w-full ">
                 <div className="w-full">
                     <img
-                        src="src\assets\img\countries\dubai\dubai.png"
+                        src="src\assets\img\countries\edutech\dubai-banner.png"
                         alt="GMAT Banner"
                         className="block  max-h-[600px] w-full h-auto object-cover"
                     />

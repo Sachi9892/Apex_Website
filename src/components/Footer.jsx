@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 border-b border-gray-700 pb-10">
                 {/* About */}
                 <div>
-                    <h2 className="text-xl font-bold mb-4">Apex Educare</h2>
+                    <h2 className="text-xl font-bold mb-4">Apex Edutech</h2>
                     <p className="text-sm text-gray-300">
                         Helping students with Study Abroad 
                         & Immigration journeys for over 23 years.
@@ -50,7 +50,7 @@ const Footer = () => {
             </div>
 
             <div className="text-center text-sm text-gray-400 pt-6">
-                &copy; {new Date().getFullYear()} Apex Educare. All rights reserved.
+                &copy; {new Date().getFullYear()} Apex Edutech. All rights reserved.
             </div>
         </footer>
     );

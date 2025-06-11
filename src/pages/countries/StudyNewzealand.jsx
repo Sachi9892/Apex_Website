@@ -34,7 +34,7 @@ function StudyNewzealand() {
             <div className="relative w-full ">
                 <div className="w-full">
                     <img
-                        src="src/assets/img/countries/new-zealand/nz-banner.png"
+                        src="src\assets\img\countries\edutech\nz-banner.png"
                         alt="GMAT Banner"
                         className="block  max-h-[600px] w-full h-auto object-cover"
                     />

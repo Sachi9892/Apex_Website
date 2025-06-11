@@ -17,10 +17,10 @@ function Immigration() {
         {/* Text Overlay */}
         <div className="absolute right-0 top-1/2 transform -translate-y-1/2 px-6 md:px-12 w-full md:w-1/2">
           <h2 className="text-2xl md:text-4xl font-bold text-white mb-4">
-            Experience Immigration With Apex Educare
+            Experience Immigration With Apex Edutech
           </h2>
           <p className="text-white text-sm md:text-lg">
-            Set sail for immigration success with Apex Educare Immigration, your
+            Set sail for immigration success with Apex Edutech Immigration, your
             trusted partner in achieving your dreams of living abroad. Your
             journey to a new life starts here.
           </p>

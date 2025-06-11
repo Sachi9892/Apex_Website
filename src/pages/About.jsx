@@ -5,7 +5,7 @@ function About() {
     return (
         <div className="w-full flex flex-col items-center bg-gray-100 py-12 px-4 md:px-10">
             <h2 className="text-3xl md:text-4xl font-bold text-blue-800 text-center mb-12 leading-snug">
-                Leading & Pioneer in Student Visa and Immigration
+            Edutech Leading & Pioneer in Student Visa and Immigration
             </h2>
 
             <div className="w-full max-w-5xl space-y-10">

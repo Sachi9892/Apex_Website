@@ -2,13 +2,13 @@ export const steps = [
     {
         title: "Leading & Pioneer in Student Visa and Immigration",
         description:
-            `APEX CONSULTANTS was incorporated with a sole vision of expanding and empowering people’s options. Apex offers an integrated module of services for people wanting to redefine their Careers.
+            `Edutech was incorporated with a sole vision of expanding and empowering people’s options. Apex offers an integrated module of services for people wanting to redefine their Careers.
 
-Apex Consultants is dedicated to students who dream of perusing studies abroad and moving to prosperity the most cherished dream of students in developing country like India.Apex Consultants gives FREE COUNSELING.
+Edutech is dedicated to students who dream of perusing studies abroad and moving to prosperity the most cherished dream of students in developing country like India.Edutech gives FREE COUNSELING.
 
-We at Apex Consultants believe that the foundation stone of a great career is proper education.If a person obtains the right and the suitable qualification, Success Follows.
+We at Edutech believe that the foundation stone of a great career is proper education.If a person obtains the right and the suitable qualification, Success Follows.
 
-Apex Consultants is a grand gateway for all those wishing to get the right qualification starting right hear in India to the most exotic & exciting locations across the globe.We assist student’s right from the Admissions process to obtaining good grades in the qualifying exams and Successfully Obtaining Visa.
+Edutech is a grand gateway for all those wishing to get the right qualification starting right hear in India to the most exotic & exciting locations across the globe.We assist student’s right from the Admissions process to obtaining good grades in the qualifying exams and Successfully Obtaining Visa.
 
 Thanking You,
 

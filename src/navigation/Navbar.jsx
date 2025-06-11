@@ -16,12 +16,12 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center h-full">
                 {/* Logo */}
                 <div className="flex items-center h-full">
-                    <Link to="/" className="flex items-center gap-2 h-full"> 
+                    <Link to="/" className="flex items-center gap-2 h-full">
                         <div className="">
                             <img
-                                src="src/assets/img/countries/others/edu-edu.jpg"
+                                src="src\assets\img\countries\edutech\apex-edutech.jpg"
                                 alt="Apex Consultant Logo"
-                                className="h-18 w-full object-contain" 
+                                className="h-18 w-full object-contain"
                             />
                         </div>
                     </Link>

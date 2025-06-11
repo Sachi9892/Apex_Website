@@ -21,10 +21,10 @@ function EducationLoan() {
                 {/* Text Overlay */}
                 <div className="absolute right-0 top-1/2 transform -translate-y-1/2 px-6 md:px-12 w-full md:w-1/2">
                     <h2 className="text-2xl md:text-4xl font-bold text-black mb-4 mr-8">
-                        <strong>Welcome To Apex Educare</strong>
+                        <strong>Welcome To Apex Edutech</strong>
                     </h2>
                     <p className="text-black mb-28 mr-8 text-sm md:text-lg">
-                        <strong>Trust Apex Educare expert mentors to equip you with the
+                        <strong>Trust Apex Edutech expert mentors to equip you with the
                             knowledge and strategies you need to succeed.</strong>
                     </p>
                 </div>
@@ -44,9 +44,9 @@ function EducationLoan() {
                 </p>
 
                 {/* Why Collegepond */}
-                <h3 className="text-xl font-semibold mb-3 text-blue-800">Why Apex Educare?</h3>
+                <h3 className="text-xl font-semibold mb-3 text-blue-800">Why Apex Edutech?</h3>
                 <p className="mb-4 text-gray-700">
-                    With Apex Educare, you get the following benefits on education loans:
+                    With Apex Edutech, you get the following benefits on education loans:
                 </p>
 
                 {/* Benefits List */}

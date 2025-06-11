@@ -34,7 +34,7 @@ function StudyFrance() {
       <div className="relative w-full ">
         <div className="w-full">
           <img
-            src="src\assets\img\countries\france\france.png"
+            src="src\assets\img\countries\edutech\france-banner.png"
             alt="GMAT Banner"
             className="block  max-h-[600px] w-full h-auto object-cover"
           />

@@ -35,7 +35,7 @@ function StudyUsa() {
       <div className="relative w-full ">
         <div className="w-full">
           <img
-            src="src\assets\img\countries\usa\us-banner.png"
+            src="src\assets\img\countries\edutech\us-banner.png"
             alt="Us Banner"
             className="block  max-h-[600px] w-full h-auto object-cover"
           />

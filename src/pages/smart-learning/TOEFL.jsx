@@ -25,7 +25,7 @@ function TOEFL() {
             Best TOEFL Coaching in Mumbai
           </h2>
           <p className="text-gray-700 mb-4 md:mb-6 text-center md:text-left">
-            Trust Apex Educare expert TOEFL mentors to equip you with the
+            Trust Apex Edutech expert TOEFL mentors to equip you with the
             knowledge and strategies you need to succeed. Thousands of TOEFL aspirants have got their desired score with us.
           </p>
           <div className="items-center justify-center">
@@ -139,7 +139,7 @@ function TOEFL() {
 
       {/* Crack TOEFL Section (Looks responsive with grid) */}
       <div className='bg-red-500 w-full'>
-        <h3 className="text-lg sm:text-xl md:text-3xl font-bold text-white text-center mt-4 md:mt-10">Crack TOEFL with <strong>80+</strong> Bands in 30 Days With Apex Educare</h3>
+        <h3 className="text-lg sm:text-xl md:text-3xl font-bold text-white text-center mt-4 md:mt-10">Crack TOEFL with <strong>80+</strong> Bands in 30 Days With Apex Edutech</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 md:px-16 w-full mb-10 mt-8">
           {toeflCrack.map((card, index) => (
             <div

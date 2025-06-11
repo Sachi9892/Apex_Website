@@ -23,14 +23,14 @@ function IELTS() {
           />
         </div>
         <div className="w-full md:w-1/2 p-6 flex flex-col items-center md:items-start">
-          <h2 className="text-xl md:text-2xl ml-8 font-bold text-gray-800 md:mt-0 mb-2 md:mb-4 text-center md:text-left">
+          <h2 className="text-xl md:text-2xl ml-20 font-bold text-gray-800 md:mt-0 mb-2 md:mb-4 text-center md:text-left">
             Best IELTS Coaching in Mumbai
           </h2>
-          <p className="text-gray-700 ml-8 mb-4 md:mb-6 text-center md:text-left">
-            Trust Apex Educare expert IELTS mentors to equip you with the
+          <p className="text-gray-700 ml-20 mb-4 md:mb-6 text-center md:text-left">
+            Trust Apex Edutech expert IELTS mentors to equip you with the
             knowledge and strategies you need to succeed. Thousands of IELTS aspirants have got their desired score with us.
           </p>
-          <div className="items-center justify-center">
+          <div className="items-center ml-10 justify-center">
             <button onClick={() => navigate("/contact-us")} className="text-center ml-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
               Book Free Demo Class!
             </button>
@@ -40,7 +40,7 @@ function IELTS() {
 
       {/* Facts about the ielts  */}
       <div className='bg-pink-200 w-full'>
-        <h3 className="text-xl sm:text-base md:text-lg font-medium text-black text-center mt-6 md:mt-6"><strong>Quick Facts About IELTS</strong></h3>
+        <h2 className="text-xl sm:text-base md:text-lg font-medium text-black text-center mt-6 md:mt-6"><strong>Quick Facts About IELTS</strong></h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 md:px-16 w-full mb-10 mt-8">
           {ieltsFactsData.map((card, index) => (
             <div
@@ -58,7 +58,7 @@ function IELTS() {
       {/* Exam Structure  */}
       <div className='bg-red-500 w-full'>
         <div className="px-4 md:px-8 w-full overflow-x-auto mb-10">
-          <h3 className="text-3xl sm:text-3xl md:text-lg font-medium text-white text-center mt-6 md:mt-6">IELTS Exam Structure</h3>
+          <h2 className="text-lg sm:text-3xl md:text-lg font-medium text-white text-center mt-6 md:mt-6">IELTS Exam Structure</h2>
           <table className="min-w-[250px] md:min-w-full bg-white border rounded-sm border-gray-300 text-sm md:text-base mt-8">
             <thead>
               <tr className="bg-gray-100 text-gray-700">
@@ -119,7 +119,7 @@ function IELTS() {
 
       {/* Crack IELTS Section (Looks responsive with grid) */}
       <div className='bg-red-500 w-full'>
-        <h3 className="text-lg sm:text-xl md:text-2xl font-medium text-white text-center mt-6 md:mt-6">Crack IELTS with <strong>7+</strong> Bands in 30 Days With Apex Educare</h3>
+        <h3 className="text-lg sm:text-xl md:text-2xl font-medium text-white text-center mt-6 md:mt-6">Crack IELTS with <strong>7+</strong> Bands in 30 Days With Apex Edutech</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 md:px-16 w-full mb-10 mt-8">
           {crackIelts.map((card, index) => (
             <div

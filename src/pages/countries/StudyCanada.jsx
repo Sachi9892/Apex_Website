@@ -37,7 +37,7 @@ function StudyCanada() {
       <div className="relative w-full ">
         <div className="w-full">
           <img
-            src="src\assets\img\countries\canada\canada.png"
+            src="src\assets\img\countries\edutech\canada-banner.png"
             alt="GMAT Banner"
             className="block  max-h-[600px] w-full h-auto object-cover"
           />
